@@ -1,16 +1,16 @@
 @charset "UTF-8";
 /* Reseteamos los estilos por defecto */
 :root {
-  --color-primario: #181818;
-  --color-secundario: #f0f0f0;
+  --color-primario: #f0f0f0;
+  --color-secundario: #181818;
   --tipo-principal: "Maven Pro", sans-serif;
   --tipo-secundaria: "Marcellus SC", serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-primario: #f0f0f0;
-    --color-secundario: #181818;
+    --color-primario: #181818;
+    --color-secundario: #f0f0f0;
   }
 }
 @media (prefers-contrast: high) {
@@ -254,7 +254,7 @@ main .portada .txt_portada {
 main .portada .txt_portada h2 {
   font-size: 1.8em;
   font-weight: bold;
-  color: #863131;
+  color: mistyrose;
 }
 main .portada .txt_portada h3 {
   font-size: 1.5em;
