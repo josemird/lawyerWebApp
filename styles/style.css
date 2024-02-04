@@ -1,24 +1,12 @@
 @charset "UTF-8";
 /* Reseteamos los estilos por defecto */
 :root {
-  --color-primario: #181818;
-  --color-secundario: #f0f0f0;
+  --color-primario: #f0f0f0;
+  --color-secundario: #181818;
   --tipo-principal: "Maven Pro", sans-serif;
   --tipo-secundaria: "Marcellus SC", serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-primario: #f0f0f0;
-    --color-secundario: #181818;
-  }
-}
-@media (prefers-contrast: high) {
-  :root {
-    --color-primario: black;
-    --color-secundario: white;
-  }
-}
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;
@@ -243,7 +231,6 @@ main .portada {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
 }
 main .portada .txt_portada {
   display: flex;
