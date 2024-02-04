@@ -123,13 +123,13 @@ body {
 
 /*DISEÑO GENERAL*/
 h2 {
+  font-family: var(--tipo-secundaria);
   font-size: 1.8em;
   font-weight: bold;
   color: #863131;
 }
 
 h3 {
-  font-family: var(--tipo-secundaria);
   font-size: 1.5em;
 }
 

@@ -10,12 +10,12 @@ $whitesmoke: whitesmoke; //- opinion's frames backgrounds
 
 /*DISEÑO GENERAL*/
 h2{
+    font-family: var(--tipo-secundaria);
     font-size: 1.8em;
     font-weight: bold;
     color: $darkredbrown;
 }
 h3{
-    font-family: var(--tipo-secundaria);
     font-size: 1.5em;
 }
 p{
