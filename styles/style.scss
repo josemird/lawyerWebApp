@@ -75,6 +75,7 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: $white;
 
    
         .txt_portada{
@@ -86,7 +87,7 @@ main{
             h2{
                 font-size: 1.8em;
                 font-weight: bold;
-                color: $mistyrose;
+                color: $darkredbrown;
             }
             h3{
                 font-size: 1.5em;
