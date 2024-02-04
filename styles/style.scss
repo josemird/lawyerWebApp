@@ -84,7 +84,10 @@ p{
         @include mixin.media(){
             margin: 1em 0;
         }
-        
+    }.li:hover{
+        color: $mistyrose;
+        text-decoration: underline 0.1em $inky;
+        transition: all .5s ease; 
     }
 }
 
