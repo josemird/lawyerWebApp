@@ -252,21 +252,21 @@ main .portada .txt_portada {
   padding: 30px 50px 5px 50px;
 }
 main .portada .txt_portada h2 {
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: bold;
   color: #863131;
 }
 main .portada .txt_portada h3 {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 main .portada .txt_portada p {
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 main .portada .btn_portada {
   display: flex;
   text-align: center;
   justify-content: center;
-  font-size: 1.2em;
+  font-size: 1.3em;
   border: #863131 solid 0.1em;
   border-radius: 5.5px;
   margin-top: 10px;
