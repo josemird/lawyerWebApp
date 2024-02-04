@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
   font-style: inherit;
   text-decoration: none;
   color: inherit;
+  line-height: 1.4em;
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
@@ -121,6 +122,35 @@ body {
 }
 
 /*DISEÑO GENERAL*/
+h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #863131;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+.button {
+  display: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .button {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .button {
+    display: block;
+  }
+}
+
 .header {
   width: 100%;
   background-color: #863131;
@@ -136,20 +166,6 @@ body {
   margin: 0.1em 0 0.1em 0.2em;
   font-family: var(--tipo-secundaria);
   font-size: 2em;
-}
-.header .button {
-  display: none;
-  cursor: pointer;
-}
-@media screen and (max-width: 480px) {
-  .header .button {
-    display: block;
-  }
-}
-@media screen and (max-width: 768px) {
-  .header .button {
-    display: block;
-  }
 }
 .header .svg {
   margin: 0.1em 0.2em 0.1em 0;
@@ -237,18 +253,13 @@ main .portada .txt_portada {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding: 30px 50px 5px 50px;
+  padding: 20px 30px 30px 30px;
 }
-main .portada .txt_portada h2 {
-  font-size: 1.8em;
-  font-weight: bold;
-  color: #863131;
-}
-main .portada .txt_portada h3 {
-  font-size: 1.5em;
-}
-main .portada .txt_portada p {
-  font-size: 1.3em;
+main .portada .txt_portada > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 main .portada .btn_portada {
   display: flex;
@@ -257,8 +268,43 @@ main .portada .btn_portada {
   font-size: 1.3em;
   border: #863131 solid 0.1em;
   border-radius: 5.5px;
-  margin-top: 10px;
-  padding: 5px;
+  margin-top: 0px;
+  padding: 9px;
   background-color: #863131;
   color: white;
+}
+main .portada .btn_portada:hover {
+  border: #333 solid 0.1em;
+  background-color: #333;
+}
+main .sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .sec .img {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  height: 250px; /* Ajusta el alto como desees */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  background-position: center; /* Centra la imagen */
+}
+main .sec .img:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+main .sec .img_civil {
+  background-image: url(../assets/img/sec1.jpeg);
+}
+main .sec .img_laboral {
+  background-image: url(../assets/img/sec2.jpg);
+}
+main .sec .img_penal {
+  background-image: url(../assets/img/sec3.jpg);
+}
+main .sec .txt_sec {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 30px 30px 30px;
 }/*# sourceMappingURL=style.css.map */

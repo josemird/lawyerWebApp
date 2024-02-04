@@ -55,6 +55,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em{
     font-style: inherit;
     text-decoration: none;
     color: inherit;
+    line-height: 1.4em;
 }
 blockquote:before, blockquote:after, q:before, q:after{
     content: '';

@@ -9,7 +9,27 @@ $mistyrose: mistyrose; //- button's hovers backgrounds
 $whitesmoke: whitesmoke; //- opinion's frames backgrounds
 
 /*DISEÑO GENERAL*/
+h2{
+    font-size: 1.8em;
+    font-weight: bold;
+    color: $darkredbrown;
+}
+h3{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1.3em;
+
     
+}
+.button{
+    display: none;
+    cursor: pointer;
+    @include mixin.media(){
+        display: block;
+    }
+}
+
 .header{ 
     width: 100%;
     background-color: $darkredbrown;
@@ -22,13 +42,6 @@ $whitesmoke: whitesmoke; //- opinion's frames backgrounds
         margin: 0.1em 0 0.1em 0.2em;
         font-family: var(--tipo-secundaria);
         font-size: 2em;
-    }
-    .button{
-        display: none;
-        cursor: pointer;
-        @include mixin.media(){
-            display: block;
-        }
     }
     .svg{
         margin: 0.1em 0.2em 0.1em 0;
@@ -75,25 +88,18 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-
-   
         .txt_portada{
             display: flex;
             flex-direction: column;
             text-align: center;
             justify-content: center;
-            padding: 30px 50px 5px 50px;
-            h2{
-                font-size: 1.8em;
-                font-weight: bold;
-                color: $darkredbrown;
-            }
-            h3{
-                font-size: 1.5em;
-            }
-            p{
-                font-size: 1.3em;
-            }
+            padding: 20px 30px 30px 30px;
+        }    
+        .txt_portada > *{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 20px;
         }
         .btn_portada{
             display: flex;
@@ -102,11 +108,49 @@ main{
             font-size: 1.3em;
             border: $darkredbrown solid 0.1em;
             border-radius: 5.5px;
-            margin-top: 10px;
-            padding: 5px;
+            margin-top: 0px;
+            padding: 9px;
             background-color: $darkredbrown;
             color: $white;
+        }.btn_portada:hover{
+            border: $inky solid 0.1em;
+            background-color: $inky;
         }
-    }        
-}
+    }
+    
+    .sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .img{
+            width: 100%; /* Ocupa todo el ancho disponible */
+            height: 250px; /* Ajusta el alto como desees */
+            background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+            background-position: center; /* Centra la imagen */
+        }
+        .img:hover{
+            opacity: 0.4;
+            cursor: pointer;
+        }
+        .img_civil{
+            background-image: url(../assets/img/sec1.jpeg);
+        }
+        .img_laboral{
+            background-image: url(../assets/img/sec2.jpg);
+        }
+        .img_penal{
+            background-image: url(../assets/img/sec3.jpg);
+        }
+        .txt_sec{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding: 20px 30px 30px 30px;
+        }
+    }
+    
+    
+    }
+
    
