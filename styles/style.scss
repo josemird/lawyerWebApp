@@ -1,0 +1,112 @@
+@use '_reset';
+@use '_mixins' as mixin;
+
+$white: white;
+$black: black;
+$inky: #333; //- complementary black color
+$darkredbrown: #863131; //- main background
+$mistyrose: mistyrose; //- button's hovers backgrounds 
+$whitesmoke: whitesmoke; //- opinion's frames backgrounds
+
+/*DISEÑO GENERAL*/
+    
+.header{ 
+    width: 100%;
+    background-color: $darkredbrown;
+    padding: 1em;
+    color: $white;
+    position: absolute;
+
+    @include mixin.flex(row, wrap, space-between, center);
+    .h1{
+        margin: 0.1em 0 0.1em 0.2em;
+        font-family: var(--tipo-secundaria);
+        font-size: 2em;
+    }
+    .button{
+        display: none;
+        cursor: pointer;
+        @include mixin.media(){
+            display: block;
+        }
+    }
+    .svg{
+        margin: 0.1em 0.2em 0.1em 0;
+        width: 2.3em;
+        height: 2.3em;
+        fill: $white;
+    }
+    .nav{
+        @include mixin.media(){
+            width: 100%;
+            opacity: 0;
+            height: 0vh;
+            pointer-events: none;
+            overflow: hidden;
+            transition: all .5s ease;
+            @include mixin.flex(column, nowrap, center, center);
+        &.active{
+            opacity: 1;
+            height: 40vh;
+            pointer-events: auto
+        }
+        }
+    }
+    .ul{
+        @include mixin.flex(row, wrap, flex-end, center);
+
+        @include mixin.media(){
+            flex-direction: column;
+        }
+    }
+    .li{
+        font-family: var(--tipo-secundaria);
+        font-size: 1.5em;
+        margin: 0 .5em;
+        @include mixin.media(){
+            margin: 1em 0;
+        }
+        
+    }
+}
+
+main{
+    .portada{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+   
+        .txt_portada{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding: 30px 50px 5px 50px;
+            h2{
+                font-size: 1.6em;
+                font-weight: bold;
+                color: $darkredbrown;
+            }
+            h3{
+                font-size: 1.3em;
+            }
+            p{
+                font-size: 1.1em;
+            }
+        }
+        .btn_portada{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            font-size: 1.1em;
+            border: $darkredbrown solid 0.1em;
+            border-radius: 5.5px;
+            margin-top: 10px;
+            padding: 5px;
+            background-color: $darkredbrown;
+            color: $white;
+        }
+    }        
+}
+   

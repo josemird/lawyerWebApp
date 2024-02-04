@@ -1,0 +1,110 @@
+
+/* Reseteamos los estilos por defecto */
+:root{
+    --color-primario: #181818;
+    --color-secundario: #f0f0f0;
+
+    --tipo-principal: 'Maven Pro', sans-serif;
+    --tipo-secundaria: 'Marcellus SC', serif;
+}
+
+@media (prefers-color-scheme: dark){
+    :root{
+        --color-primario: #f0f0f0;
+        --color-secundario: #181818;
+    }
+}
+
+@media (prefers-contrast: high){
+    :root{
+        --color-primario: black;
+        --color-secundario: white;
+    }
+}
+
+@media (prefers-reduced-motion: reduce){
+    *{
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
+*, *::before , *::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;    
+}
+*::before , *::after{
+    display: block;
+  }
+
+img, picture, video, iframe, figure{
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    /*opcional*/ object-fit: cover;
+    /*opcional*/ object-position: center center;
+}
+a{
+    display: block;
+}
+p a{
+    display: inline;
+}
+li{
+    list-style-type: none;
+}
+ul, ol, dl{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em{
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+blockquote:before, blockquote:after, q:before, q:after{
+    content: '';
+    content: none;
+}
+::selection{ //color de seleccion de comtenido personalizado
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+}
+form, input, button, textarea, select, label{
+   font-family: inherit;
+   font-size: inherit;
+   hyphens: auto;
+   background-color: transparent;
+   display: block;
+   color: inherit;
+   /*appearance:none;*/
+}
+table, tr, td{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+svg{
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}
+body{
+    min-height: 100vh;
+    font-size: 100%;
+    font-family: var(--tipo-principal);
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    /*opcional*/ line-height: 1.4em;
+    /*opcional*/ //hyphens: auto;
+    /*opcional*/ font-smooth: always;
+    /*opcional*/ --webkit-font-smoothing: antialiased;
+    /*opcional*/ -moz-osx-font-smoothing: grayscale;
+}
