@@ -130,11 +130,13 @@ h2 {
 }
 
 h3 {
+  color: black;
   font-size: 1.5em;
 }
 
 p {
   font-size: 1.3em;
+  padding: 20px 45px 30px 45px;
 }
 
 .button {
