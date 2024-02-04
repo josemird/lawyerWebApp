@@ -123,6 +123,7 @@ body {
 
 /*DISEÑO GENERAL*/
 h2 {
+  font-family: var(--tipo-secundaria);
   font-size: 1.8em;
   font-weight: bold;
   color: #863131;
@@ -253,7 +254,7 @@ main .portada .txt_portada {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding: 20px 20px 30px 20px;
+  padding: 20px 45px 30px 45px;
 }
 main .portada .txt_portada > * {
   display: flex;

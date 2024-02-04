@@ -10,6 +10,7 @@ $whitesmoke: whitesmoke; //- opinion's frames backgrounds
 
 /*DISEÑO GENERAL*/
 h2{
+    font-family: var(--tipo-secundaria);
     font-size: 1.8em;
     font-weight: bold;
     color: $darkredbrown;
@@ -93,7 +94,7 @@ main{
             flex-direction: column;
             text-align: center;
             justify-content: center;
-            padding: 20px 20px 30px 20px;
+            padding: 20px 45px 30px 45px;
         }    
         .txt_portada > *{
             display: flex;
