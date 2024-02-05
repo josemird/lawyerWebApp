@@ -11,7 +11,7 @@ $whitesmoke: whitesmoke; //- opinion's frames backgrounds
 /*DISEÑO GENERAL*/
 h2{
     font-family: var(--tipo-secundaria);
-    font-size: 1.8em;
+    font-size: 1.65em;
     font-weight: bolder;
     color: $darkredbrown;
 }
@@ -41,14 +41,14 @@ p{
 
     @include mixin.flex(row, wrap, space-between, center);
     .h1{
-        margin: 0.1em 0 0.1em;
+        margin: 0.1em 0 0.1em 0;
         font-family: var(--tipo-secundaria);
-        font-size: 1.9em;
+        font-size: 1.85em;
     }
     .svg{
-        margin: 0.1em 0em 0.1em;
-        width: 2.2em;
-        height: 2.2em;
+        margin: 0.1em 0em 0.1em 0;
+        width: 2.1em;
+        height: 2.1em;
         fill: $white;
     }
     .nav{
