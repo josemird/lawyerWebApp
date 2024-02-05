@@ -254,6 +254,11 @@ p {
   transition: all 0.5s ease;
 }
 
+main {
+  display: grid;
+  place-content: center;
+  grid-template-columns: 1fr;
+}
 main .img_main {
   background-image: url(../assets/img/mainLawyer.jpg);
   width: 100%;

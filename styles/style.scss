@@ -32,7 +32,6 @@ p{
         display: block;
     }
 }
-
 .header{ 
     width: 100%;
     background-color: $darkredbrown;
@@ -90,6 +89,9 @@ p{
 }
 
 main{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
     .img_main{
         background-image: url(../assets/img/mainLawyer.jpg);
         width: 100%; 
@@ -164,8 +166,7 @@ main{
             padding: 20px 30px 30px 30px;
         }
     }
-    
-    
-    }
+}
+
 
    
