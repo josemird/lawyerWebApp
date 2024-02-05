@@ -62,7 +62,7 @@ p{
             @include mixin.flex(column, nowrap, center, center);
         &.active{
             opacity: 1;
-            height: 40vh;
+            height: 45vh;
             pointer-events: auto
         }
         }
@@ -77,7 +77,7 @@ p{
     .li{
         font-family: var(--tipo-secundaria);
         font-size: 1.5em;
-        margin: 0 .5em;
+        margin: 0 .7em;
         @include mixin.media(){
             margin: 1em 0;
         }

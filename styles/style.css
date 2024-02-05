@@ -193,7 +193,7 @@ p {
   }
   .header .nav.active {
     opacity: 1;
-    height: 40vh;
+    height: 45vh;
     pointer-events: auto;
   }
 }
@@ -212,7 +212,7 @@ p {
   }
   .header .nav.active {
     opacity: 1;
-    height: 40vh;
+    height: 45vh;
     pointer-events: auto;
   }
 }
@@ -235,7 +235,7 @@ p {
 .header .li {
   font-family: var(--tipo-secundaria);
   font-size: 1.5em;
-  margin: 0 0.5em;
+  margin: 0 0.7em;
 }
 @media screen and (max-width: 480px) {
   .header .li {
