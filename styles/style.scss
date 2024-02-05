@@ -41,12 +41,12 @@ p{
 
     @include mixin.flex(row, wrap, space-between, center);
     .h1{
-        margin: 0.1em 0 0.1em 0.1em;
+        margin: 0.1em 0 0.1em;
         font-family: var(--tipo-secundaria);
         font-size: 1.9em;
     }
     .svg{
-        margin: 0.1em 0.1em 0.1em 0;
+        margin: 0.1em 0em 0.1em;
         width: 2.2em;
         height: 2.2em;
         fill: $white;
