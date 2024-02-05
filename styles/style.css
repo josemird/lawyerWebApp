@@ -254,38 +254,38 @@ p {
   transition: all 0.5s ease;
 }
 
-main {
+.main {
   display: grid;
   place-content: center;
   grid-template-columns: 1fr;
 }
-main .img_main {
+.main .img_main {
   background-image: url(../assets/img/mainLawyer.jpg);
   width: 100%;
-  height: 350px;
+  height: 400px;
   background-size: cover;
   background-position: center;
   margin-bottom: 10px;
 }
-main .portada {
+.main .portada {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .portada .txt_portada {
+.main .portada .txt_portada {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   padding: 20px 25px 30px 25px;
 }
-main .portada .txt_portada > * {
+.main .portada .txt_portada > * {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 20px;
 }
-main .portada .btn_portada {
+.main .portada .btn_portada {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -297,36 +297,36 @@ main .portada .btn_portada {
   background-color: #863131;
   color: white;
 }
-main .portada .btn_portada:hover {
+.main .portada .btn_portada:hover {
   border: #333 solid 0.1em;
   background-color: #333;
 }
-main .sec {
+.main .sec {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .sec .img {
+.main .sec .img {
   width: 100%;
   height: 250px;
   background-size: cover;
   background-position: center;
   margin-bottom: 10px;
 }
-main .sec .img:hover {
+.main .sec .img:hover {
   opacity: 0.4;
   cursor: pointer;
 }
-main .sec .img_civil {
+.main .sec .img_civil {
   background-image: url(../assets/img/sec1.jpeg);
 }
-main .sec .img_laboral {
+.main .sec .img_laboral {
   background-image: url(../assets/img/sec2.jpg);
 }
-main .sec .img_penal {
+.main .sec .img_penal {
   background-image: url(../assets/img/sec3.jpg);
 }
-main .sec .txt_sec {
+.main .sec .txt_sec {
   display: flex;
   flex-direction: column;
   text-align: center;
