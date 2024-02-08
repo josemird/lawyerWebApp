@@ -122,9 +122,13 @@ body {
 }
 
 /*DISEÑO GENERAL*/
+html {
+  scrollbar-width: none;
+}
+
 h2 {
   font-family: var(--tipo-secundaria);
-  font-size: 1.8em;
+  font-size: 1.65em;
   font-weight: bolder;
   color: #863131;
 }
@@ -168,14 +172,14 @@ p {
   align-items: center;
 }
 .header .h1 {
-  margin: 0.1em 0 0.1em 0.2em;
+  margin: 0.1em 0 0.1em 0;
   font-family: var(--tipo-secundaria);
-  font-size: 2em;
+  font-size: 1.85em;
 }
 .header .svg {
-  margin: 0.1em 0.2em 0.1em 0;
-  width: 2.3em;
-  height: 2.3em;
+  margin: 0.1em 0em 0.1em 0;
+  width: 2.1em;
+  height: 2.1em;
   fill: white;
 }
 @media screen and (max-width: 480px) {

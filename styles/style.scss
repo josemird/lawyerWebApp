@@ -9,6 +9,9 @@ $mistyrose: mistyrose; //- button's hovers backgrounds
 $whitesmoke: whitesmoke; //- opinion's frames backgrounds
 
 /*DISEÑO GENERAL*/
+html{
+    scrollbar-width: none;
+}
 h2{
     font-family: var(--tipo-secundaria);
     font-size: 1.65em;
