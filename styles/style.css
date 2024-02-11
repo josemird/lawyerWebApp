@@ -330,6 +330,21 @@ p {
   padding: 20px 30px 30px 30px;
 }
 
+.whatsapp-icon {
+  position: fixed;
+  opacity: 70%;
+  width: 20%;
+  bottom: 20%;
+  right: 2.5%;
+  z-index: auto;
+}
+
+.whatsapp-icon:hover {
+  opacity: 100%;
+  transition: all 0.25s linear;
+  cursor: pointer;
+}
+
 .footer {
   background-color: #333;
   width: 100%;
