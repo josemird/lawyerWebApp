@@ -331,12 +331,12 @@ p {
 }
 
 .whatsapp-icon {
+  background-image: url(../assets/img/ico/whatssap-icon.png);
   position: fixed;
   opacity: 70%;
   width: 20%;
-  bottom: 20%;
+  bottom: 10%;
   right: 2.5%;
-  z-index: auto;
 }
 
 .whatsapp-icon:hover {
