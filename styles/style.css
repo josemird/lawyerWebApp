@@ -445,21 +445,43 @@ p {
   padding-top: 75px;
 }
 .main_opiniones .sec5 {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 10% 7%;
+  height: 15em;
 }
-.main_opiniones .sec5 .img {
+.main_opiniones .sec5 .img_opinion {
   width: 100%;
-  height: 350px;
+  height: 100%;
   background-size: cover;
-  background-position: top;
-  margin-bottom: 10px;
+  background-position: bottom;
+  margin-bottom: 10%;
+  padding: 10%;
 }
-.main_opiniones .sec5 .img_opiniones:hover {
+.main_opiniones .sec5 .img_opinion:hover {
   opacity: 0.4;
   cursor: pointer;
 }
-.main_opiniones .sec5 .img_opiniones1 {
-  background-image: url(../assets/img/sec1.jpeg);
+.main_opiniones .sec5 .img_opinion {
+  background-image: url(../assets/img/p1.jpg);
+}
+.main_opiniones .sec5 .txt_opinion {
+  background-color: mistyrose;
+  text-align: left;
+  padding: 3%;
+  font-size: small;
+}
+.main_opiniones .sec5 .txt_opinion > p {
+  margin-top: 5%;
+  padding: 0 1%;
+}
+.main_opiniones .sec5 .txt_opinion > p:is(:last-of-type) {
+  text-align: center;
+  color: #863131;
+}
+.main_opiniones .sec5 .rate {
+  scale: 45%;
+  padding: 0;
 }
 
 .footer {
