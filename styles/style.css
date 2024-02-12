@@ -447,14 +447,14 @@ p {
 .main_opiniones .sec5 {
   display: flex;
   flex-direction: row;
-  margin: 10% 7%;
+  margin: 3% 4%;
   height: 15em;
 }
 .main_opiniones .sec5 .img_opinion {
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   margin-bottom: 10%;
   padding: 10%;
 }
@@ -480,7 +480,7 @@ p {
   color: #863131;
 }
 .main_opiniones .sec5 .rate {
-  scale: 45%;
+  scale: 40%;
   padding: 0;
 }
 
