@@ -152,14 +152,8 @@ p{
             opacity: 0.4;
             cursor: pointer;
         }
-        .img_civil{
-            background-image: url(../assets/img/sec1.jpeg);
-        }
-        .img_laboral{
-            background-image: url(../assets/img/sec2.jpg);
-        }
-        .img_penal{
-            background-image: url(../assets/img/sec3.jpg);
+        .img_main2{
+            background-image: url(../assets/img/feliz.png);
         }
         .txt_sec{
             display: flex;
@@ -247,9 +241,68 @@ p{
     }
 }
 
+//MAIN SERVICIOS
+.main_servicios{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: $whitesmoke;
+    padding-top: 75px;
+    .sec4{
+        text-align: center;
+        .img{
+            width: 100%; 
+            height: 350px;
+            background-size: cover; 
+            background-position: top; 
+            margin-bottom: 10px;
+        }
+        .img_servicios:hover{
+            opacity: 0.4;
+            cursor: pointer;
+        }
+        .img_servicios1{
+            background-image: url(../assets/img/sec1.jpeg);
+        }
+        .img_servicios2{
+            background-image: url(../assets/img/sec2.jpg);
+        }
+        .img_servicios3{
+            background-image: url(../assets/img/sec3alternative.jpg);
+        }
+        .txt_sec{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding: 20px 30px 30px 30px;
+        }
+    }
+}
 
-
-
+//MAIN OPINIONES
+.main_opiniones{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: $whitesmoke;
+    padding-top: 75px;
+    .sec5{
+        text-align: center;
+        .img{
+            width: 100%; 
+            height: 350px;
+            background-size: cover; 
+            background-position: top; 
+            margin-bottom: 10px;
+        }
+        .img_opiniones:hover{
+            opacity: 0.4;
+            cursor: pointer;
+        }
+        .img_opiniones1{
+            background-image: url(../assets/img/sec1.jpeg);
+        }
+    }
+}
 
 //GLOBAL FOOTER
 .footer{
