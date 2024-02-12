@@ -35,6 +35,8 @@ p{
         display: block;
     }
 }
+
+//GLOBAL HEADER
 .header{ 
     width: 100%;
     z-index: 1000;
@@ -81,9 +83,9 @@ p{
     .li{
         font-family: var(--tipo-secundaria);
         font-size: 1.5em;
-        margin: 0 .7em;
+        margin: 0 .6em;
         @include mixin.media(){
-            margin: 1em 0;
+            margin: 0.7em 0;
         }
     }.li:hover{
         color: $mistyrose;
@@ -91,6 +93,8 @@ p{
         transition: all .5s ease; 
     }
 }
+
+//MAIN PAGE INDEX
 .main{
     display: grid;
     grid-template-columns: 1fr;
@@ -136,6 +140,7 @@ p{
     }
     
     .sec{
+        text-align: center;
         .img{
             width: 100%; 
             height: 250px; 
@@ -166,6 +171,92 @@ p{
     }
 }
 
+//MAIN BUFETE
+.main_bufete{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: $whitesmoke;
+    padding-top: 75px;
+    .sec2{
+        text-align: center;
+        .img{
+            width: 100%; 
+            height: 450px;
+            background-size: cover; 
+            background-position: top; 
+            margin-bottom: 10px;
+        }
+        .img_bufete:hover{
+            opacity: 0.4;
+            cursor: pointer;
+        }
+        .img_bufete1{
+            background-image: url(../assets/img/abogado1.jpg);
+        }
+        .img_bufete2{
+            background-image: url(../assets/img/abogado2.jpg);
+        }
+        .img_bufete3{
+            background-image: url(../assets/img/main2Lawyer.jpg);
+        }
+        .txt_sec{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding: 20px 30px 30px 30px;
+        }
+    }
+}
+
+//MAIN ASESORAMIENTO
+.main_asesoramiento{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: $whitesmoke;
+    padding-top: 75px;
+    .sec3{
+        text-align: center;
+        .img{
+            width: 100%; 
+            height: 350px;
+            background-size: cover; 
+            background-position: top; 
+            margin-bottom: 10px;
+        }
+        .img_asesoramiento:hover{
+            opacity: 0.4;
+            cursor: pointer;
+        }
+        .img_asesoramiento1{
+            background-image: url(../assets/img/WSLawyer.jpg);
+        }
+        .img_asesoramiento2{
+            background-image: url(../assets/img/feliz.png);
+        .txt_sec{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding: 20px 30px 30px 30px;
+        }
+    }
+}
+}
+
+
+
+
+//GLOBAL FOOTER
+.footer{
+    background-color: $inky;
+    width: 100%;
+    height: 300px;
+    color: white;
+    padding: 1em;
+}
+
+//WHATSAPP
 .whatsapp-icon {
     background-image: url(../assets/img/ico/whatssap-icon.png);
     position: fixed;
@@ -179,47 +270,5 @@ transition: all 0.25s linear;
 cursor: pointer;
 }
 
-.footer{
-    background-color: $inky;
-    width: 100%;
-    height: 300px;
-    color: white;
-    padding: 1em;
-}
 
 
-
-//ABOGADOS PAG
-
-.main_abogados{
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: $whitesmoke;
-    padding-top: 75px;
-    .sec2{
-        .img{
-            width: 100%; 
-            height: 450px;
-            background-size: cover; 
-            background-position: top; 
-            margin-bottom: 10px;
-        }
-        .img_abogados:hover{
-            opacity: 0.4;
-            cursor: pointer;
-        }
-        .img_abogados2{
-            background-image: url(../assets/img/abogado1.jpg);
-        }
-        .img_abogados1{
-            background-image: url(../assets/img/abogado2.jpg);
-        }
-        .txt_sec{
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-            padding: 20px 30px 30px 30px;
-        }
-    }
-}
