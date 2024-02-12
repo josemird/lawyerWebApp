@@ -394,9 +394,12 @@ p {
   background-image: url(../assets/img/WSLawyer.jpg);
 }
 .main_asesoramiento .sec3 .img_asesoramiento2 {
-  background-image: url(../assets/img/feliz.png);
+  background-image: url(../assets/img/atencion2.jpg);
 }
-.main_asesoramiento .sec3 .img_asesoramiento2 .txt_sec {
+.main_asesoramiento .sec3 .img_asesoramiento3 {
+  background-image: url(../assets/img/atencion.jpg);
+}
+.main_asesoramiento .sec3 .txt_sec {
   display: flex;
   flex-direction: column;
   text-align: center;
