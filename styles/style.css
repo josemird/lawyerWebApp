@@ -462,8 +462,14 @@ p {
   opacity: 0.4;
   cursor: pointer;
 }
-.main_opiniones .sec5 .img_opinion {
+.main_opiniones .sec5 .img_opinion1 {
   background-image: url(../assets/img/p1.jpg);
+}
+.main_opiniones .sec5 .img_opinion2 {
+  background-image: url(../assets/img/p2.jpg);
+}
+.main_opiniones .sec5 .img_opinion3 {
+  background-image: url(../assets/img/p3.jpg);
 }
 .main_opiniones .sec5 .txt_opinion {
   background-color: mistyrose;
