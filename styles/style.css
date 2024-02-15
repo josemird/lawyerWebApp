@@ -198,7 +198,7 @@ p {
   }
   .header .nav.active {
     opacity: 1;
-    height: 45vh;
+    height: 38vh;
     pointer-events: auto;
   }
 }
@@ -217,7 +217,7 @@ p {
   }
   .header .nav.active {
     opacity: 1;
-    height: 45vh;
+    height: 38vh;
     pointer-events: auto;
   }
 }
@@ -244,12 +244,12 @@ p {
 }
 @media screen and (max-width: 480px) {
   .header .li {
-    margin: 0.7em 0;
+    margin: 0.8em 0;
   }
 }
 @media screen and (max-width: 768px) {
   .header .li {
-    margin: 0.7em 0;
+    margin: 0.8em 0;
   }
 }
 .header .li:hover {
@@ -263,28 +263,27 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   background-color: whitesmoke;
-  padding-top: 75px;
+  padding-top: 20%;
 }
 .main .img_main {
   background-image: url(../assets/img/mainLawyer.jpg);
   width: 100%;
-  height: 320px;
+  height: 20em;
   background-size: cover;
   background-position: center;
-  margin-bottom: 10px;
 }
 .main .portada .txt_portada {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding: 20px 25px 30px 25px;
+  padding: 7% 8% 8%;
 }
 .main .portada .txt_portada > * {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 20px;
+  padding-bottom: 7%;
 }
 .main .portada .btn_portada {
   display: flex;
@@ -293,7 +292,7 @@ p {
   font-size: 1.3em;
   border: #863131 solid 0.1em;
   border-radius: 5.5px;
-  margin-top: 0px;
+  margin-top: 0;
   padding: 9px;
   background-color: #863131;
   color: white;
@@ -307,7 +306,7 @@ p {
 }
 .main .sec .img {
   width: 100%;
-  height: 250px;
+  height: 20em;
   background-size: cover;
   background-position: center;
   margin-bottom: 10px;
@@ -317,7 +316,7 @@ p {
   cursor: pointer;
 }
 .main .sec .img_main2 {
-  background-image: url(../assets/img/feliz.png);
+  background-image: url(../assets/img/main4.jpg);
 }
 .main .sec .txt_sec {
   display: flex;
@@ -326,19 +325,55 @@ p {
   justify-content: center;
   padding: 20px 30px 30px 30px;
 }
+.main .secOpinion {
+  display: flex;
+  flex-direction: row;
+  margin: 3% 4%;
+  padding: 4%;
+  height: 10em;
+}
+.main .secOpinion .img_opinion {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 10%;
+}
+.main .secOpinion .img_opinion:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+.main .secOpinion .img_opinion1 {
+  background-image: url(../assets/img/p1.jpg);
+}
+.main .secOpinion .img_opinion2 {
+  background-image: url(../assets/img/p2.jpg);
+}
+.main .secOpinion .img_opinion3 {
+  background-image: url(../assets/img/p3.jpg);
+}
+.main .secOpinion .txt_opinion {
+  background-color: mistyrose;
+  text-align: center;
+  font-size: x-small;
+}
+.main .secOpinion .rate {
+  scale: 40%;
+  padding: 0;
+}
 
 .main_bufete {
   display: grid;
   grid-template-columns: 1fr;
   background-color: whitesmoke;
-  padding-top: 75px;
+  padding-top: 20%;
 }
 .main_bufete .sec2 {
   text-align: center;
 }
 .main_bufete .sec2 .img {
   width: 100%;
-  height: 450px;
+  height: 27em;
   background-size: cover;
   background-position: top;
   margin-bottom: 10px;
@@ -361,61 +396,23 @@ p {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding: 20px 30px 30px 30px;
-}
-
-.main_asesoramiento {
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: whitesmoke;
-  padding-top: 75px;
-}
-.main_asesoramiento .sec3 {
-  text-align: center;
-}
-.main_asesoramiento .sec3 .img {
-  width: 100%;
-  height: 350px;
-  background-size: cover;
-  background-position: top;
-  margin-bottom: 10px;
-}
-.main_asesoramiento .sec3 .img_asesoramiento:hover {
-  opacity: 0.4;
-  cursor: pointer;
-}
-.main_asesoramiento .sec3 .img_asesoramiento1 {
-  background-image: url(../assets/img/WSLawyer.jpg);
-}
-.main_asesoramiento .sec3 .img_asesoramiento2 {
-  background-image: url(../assets/img/atencion2.jpg);
-}
-.main_asesoramiento .sec3 .img_asesoramiento3 {
-  background-image: url(../assets/img/atencion.jpg);
-}
-.main_asesoramiento .sec3 .txt_sec {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  padding: 20px 30px 30px 30px;
+  padding: 7% 8% 8%;
 }
 
 .main_servicios {
   display: grid;
   grid-template-columns: 1fr;
   background-color: whitesmoke;
-  padding-top: 75px;
+  padding-top: 20%;
 }
 .main_servicios .sec4 {
   text-align: center;
 }
 .main_servicios .sec4 .img {
   width: 100%;
-  height: 350px;
+  height: 20em;
   background-size: cover;
   background-position: top;
-  margin-bottom: 10px;
 }
 .main_servicios .sec4 .img_servicios:hover {
   opacity: 0.4;
@@ -430,64 +427,21 @@ p {
 .main_servicios .sec4 .img_servicios3 {
   background-image: url(../assets/img/sec3alternative.jpg);
 }
+.main_servicios .sec4 .img_servicios4 {
+  background-image: url(../assets/img/WSLawyer.jpg);
+}
+.main_servicios .sec4 .img_servicios5 {
+  background-image: url(../assets/img/atencion2.jpg);
+}
+.main_servicios .sec4 .img_servicios6 {
+  background-image: url(../assets/img/atencion.jpg);
+}
 .main_servicios .sec4 .txt_sec {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding: 20px 30px 30px 30px;
-}
-
-.main_opiniones {
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: whitesmoke;
-  padding-top: 75px;
-}
-.main_opiniones .sec5 {
-  display: flex;
-  flex-direction: row;
-  margin: 3% 4%;
-  height: 15em;
-}
-.main_opiniones .sec5 .img_opinion {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 10%;
-  padding: 10%;
-}
-.main_opiniones .sec5 .img_opinion:hover {
-  opacity: 0.4;
-  cursor: pointer;
-}
-.main_opiniones .sec5 .img_opinion1 {
-  background-image: url(../assets/img/p1.jpg);
-}
-.main_opiniones .sec5 .img_opinion2 {
-  background-image: url(../assets/img/p2.jpg);
-}
-.main_opiniones .sec5 .img_opinion3 {
-  background-image: url(../assets/img/p3.jpg);
-}
-.main_opiniones .sec5 .txt_opinion {
-  background-color: mistyrose;
-  text-align: left;
-  padding: 3%;
-  font-size: small;
-}
-.main_opiniones .sec5 .txt_opinion > p {
-  margin-top: 5%;
-  padding: 0 1%;
-}
-.main_opiniones .sec5 .txt_opinion > p:is(:last-of-type) {
-  text-align: center;
-  color: #863131;
-}
-.main_opiniones .sec5 .rate {
-  scale: 40%;
-  padding: 0;
+  padding: 7% 8% 8%;
 }
 
 .footer {
@@ -506,8 +460,7 @@ p {
   bottom: 10%;
   right: 2.5%;
 }
-
-.whatsapp-icon:hover {
+.whatsapp-icon .whatsapp-icon:hover {
   opacity: 100%;
   transition: all 0.25s linear;
   cursor: pointer;
