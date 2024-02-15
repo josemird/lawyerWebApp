@@ -51,6 +51,7 @@ p{
         margin: 0.1em 0 0.1em 0;
         font-family: var(--tipo-secundaria);
         font-size: 1.85em;
+
     }
     .svg{
         margin: 0.1em 0em 0.1em 0;
@@ -160,15 +161,21 @@ p{
             flex-direction: column;
             text-align: center;
             justify-content: center;
-            padding: 20px 30px 30px 30px;
+            padding: 7% 8% 8%;
         }  
+    }
+    .h2opinion{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
     }
     .secOpinion{
         display: flex;
         flex-direction: row;
         margin: 3% 4%;
         padding: 4%;
-        height: 10em;
+        height: 12em;
+     
         .img_opinion{
             width: 100%; 
             height: 100%;
@@ -189,10 +196,14 @@ p{
         .img_opinion3{
             background-image: url(../assets/img/p3.jpg);
         }
+        .img_opinion4{
+            background-image: url(../assets/img/p4.jpg);
+        }
         .txt_opinion{
             background-color: $mistyrose;
             text-align: center;
             font-size: x-small;
+            padding-top: 0.5rem;
         }
         .rate{
             scale: 40%;
