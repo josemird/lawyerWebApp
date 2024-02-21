@@ -3,6 +3,11 @@
     grid-template-columns: 1fr;
     background-color: $whitesmoke;
     padding-top: 16%;
+    .h2{
+        text-align: center;
+        color: $darkredbrown;
+        margin: 10% 0 0 0;
+    }
     .form_contacta{
         display: flex;
         flex-direction: column;

@@ -428,7 +428,7 @@ p {
   cursor: pointer;
 }
 .main_servicios .sec4 .img_servicios1 {
-  background-image: url(../assets/img/sec1.jpeg);
+  background-image: url(../assets/img/sec1.jpg);
 }
 .main_servicios .sec4 .img_servicios2 {
   background-image: url(../assets/img/sec2.jpg);
@@ -458,6 +458,11 @@ p {
   grid-template-columns: 1fr;
   background-color: whitesmoke;
   padding-top: 16%;
+}
+.main_contacta .h2 {
+  text-align: center;
+  color: #863131;
+  margin: 10% 0 0 0;
 }
 .main_contacta .form_contacta {
   display: flex;
