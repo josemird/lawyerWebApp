@@ -101,7 +101,7 @@ p{
     display: grid;
     grid-template-columns: 1fr;
     background-color: $whitesmoke;
-    padding-top: 20%;
+    padding-top: 16%;
     .img_main{
         background-image: url(../assets/img/mainLawyer.jpg);
         width: 100%; 
@@ -214,6 +214,7 @@ p{
 
 @import "_bufete";
 @import "_servicios";
+@import "_contacta";
 
 
 //GLOBAL FOOTER
