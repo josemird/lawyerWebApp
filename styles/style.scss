@@ -164,79 +164,98 @@ p{
             padding: 7% 8% 8%;
         }  
     }
-    .h2opinion{
+
+    .h3opinion, .h3mapa{
+        font-family: var(--tipo-secundaria);
         display: flex;
         justify-content: center;
-        flex-direction: row;
+        color: $darkredbrown;
     }
-    .secOpinion{
-        display: flex;
-        flex-direction: row;
-        margin: 3% 4%;
-        padding: 4%;
-        height: 12em;
-     
-        .img_opinion{
-            width: 100%; 
-            height: 100%;
-            background-size: cover; 
-            background-position: center; 
-            padding: 10%;
+
+    .secOpiniones{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        .opiniones{
+            display: grid;
+            grid-template-columns: 6.5em 1fr;
+            margin: 0 4%;
+            padding: 4% 4% 5% 4%;        
+            .img_opinion{
+                width: 100%; 
+                height: 100%;
+                background-size: cover; 
+                background-position: center; 
+                border-radius: 3%;
+            }
+            .img_opinion:hover{
+                opacity: 0.4;
+                cursor: pointer;
+            }
+            .img_opinion1{
+                background-image: url(../assets/img/p1.jpg);
+            }
+            .img_opinion2{
+                background-image: url(../assets/img/p2.jpg);
+            }
+            .img_opinion3{
+                background-image: url(../assets/img/p3.jpg);
+            }
+            .img_opinion4{
+                background-image: url(../assets/img/p4.jpg);
+            }
+            .txt_opinion{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: start;
+                font-size: x-small;
+                padding-top: 0.5rem;
+            }
+            .txt_opinion > p{
+                padding: 0 2% 0 11%;
+            }
+            .txt_opinion > p:is(:last-child){
+                color: $darkredbrown;
+                display: flex;
+                padding-right: 12%;
+                justify-content: center;
+            }
         }
-        .img_opinion:hover{
-            opacity: 0.4;
+    }
+    .secMapa > iframe{
+        height: 20rem;
+        padding: 1rem 1rem;
+ 
+    }
+}
+  
+
+
+    @import "_bufete";
+    @import "_servicios";
+    @import "_contacta";
+
+    //GLOBAL FOOTER
+    .footer{
+        background-color: $inky;
+        width: 100%;
+        height: 300px;
+        color: white;
+        padding: 1em;
+    }
+
+    //WHATSAPP
+    .whatsapp-icon {
+        background-image: url(../assets/img/ico/whatssap-icon.png);
+        position: fixed;
+        opacity: 100%;
+        width: 20%;
+        bottom: 10%; 
+        right: 2.5%;
+        .whatsapp-icon:hover {
+            opacity: 100%;
+            transition: all 0.25s linear;
             cursor: pointer;
         }
-        .img_opinion1{
-            background-image: url(../assets/img/p1.jpg);
-        }
-        .img_opinion2{
-            background-image: url(../assets/img/p2.jpg);
-        }
-        .img_opinion3{
-            background-image: url(../assets/img/p3.jpg);
-        }
-        .img_opinion4{
-            background-image: url(../assets/img/p4.jpg);
-        }
-        .txt_opinion{
-            background-color: $mistyrose;
-            text-align: center;
-            font-size: x-small;
-            padding-top: 0.5rem;
-        }
-        .rate{
-            scale: 40%;
-            padding: 0;
-        }
     }
-}
-
-@import "_bufete";
-@import "_servicios";
-@import "_contacta";
-
-//GLOBAL FOOTER
-.footer{
-    background-color: $inky;
-    width: 100%;
-    height: 300px;
-    color: white;
-    padding: 1em;
-}
-
-//WHATSAPP
-.whatsapp-icon {
-    background-image: url(../assets/img/ico/whatssap-icon.png);
-    position: fixed;
-    opacity: 100%;
-    width: 20%;
-    bottom: 10%; 
-    right: 2.5%;
-    .whatsapp-icon:hover {
-        opacity: 100%;
-        transition: all 0.25s linear;
-        cursor: pointer;
-    }
-}
-

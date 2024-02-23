@@ -325,50 +325,66 @@ p {
   justify-content: center;
   padding: 7% 8% 8%;
 }
-.main .h2opinion {
+.main .h3opinion, .main .h3mapa {
+  font-family: var(--tipo-secundaria);
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  color: #863131;
 }
-.main .secOpinion {
-  display: flex;
-  flex-direction: row;
-  margin: 3% 4%;
-  padding: 4%;
-  height: 12em;
+.main .secOpiniones {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
-.main .secOpinion .img_opinion {
+.main .secOpiniones .opiniones {
+  display: grid;
+  grid-template-columns: 6.5em 1fr;
+  margin: 0 4%;
+  padding: 4% 4% 5% 4%;
+}
+.main .secOpiniones .opiniones .img_opinion {
   width: 100%;
   height: 100%;
   background-size: cover;
   background-position: center;
-  padding: 10%;
+  border-radius: 3%;
 }
-.main .secOpinion .img_opinion:hover {
+.main .secOpiniones .opiniones .img_opinion:hover {
   opacity: 0.4;
   cursor: pointer;
 }
-.main .secOpinion .img_opinion1 {
+.main .secOpiniones .opiniones .img_opinion1 {
   background-image: url(../assets/img/p1.jpg);
 }
-.main .secOpinion .img_opinion2 {
+.main .secOpiniones .opiniones .img_opinion2 {
   background-image: url(../assets/img/p2.jpg);
 }
-.main .secOpinion .img_opinion3 {
+.main .secOpiniones .opiniones .img_opinion3 {
   background-image: url(../assets/img/p3.jpg);
 }
-.main .secOpinion .img_opinion4 {
+.main .secOpiniones .opiniones .img_opinion4 {
   background-image: url(../assets/img/p4.jpg);
 }
-.main .secOpinion .txt_opinion {
-  background-color: mistyrose;
-  text-align: center;
+.main .secOpiniones .opiniones .txt_opinion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
   font-size: x-small;
   padding-top: 0.5rem;
 }
-.main .secOpinion .rate {
-  scale: 40%;
-  padding: 0;
+.main .secOpiniones .opiniones .txt_opinion > p {
+  padding: 0 2% 0 11%;
+}
+.main .secOpiniones .opiniones .txt_opinion > p:is(:last-child) {
+  color: #863131;
+  display: flex;
+  padding-right: 12%;
+  justify-content: center;
+}
+.main .secMapa > iframe {
+  height: 20rem;
+  padding: 1rem 1rem;
 }
 
 .main_bufete {
