@@ -225,6 +225,9 @@ p{
                 padding-right: 12%;
                 justify-content: center;
             }
+            .txt_opinion:hover{
+                background-color: $mistyrose;
+            }
         }
     }
     .secMapa > iframe{
@@ -233,10 +236,22 @@ p{
  
     }
 }
-  
+@import "./tablet/styleTablet";
+@import "./desktop/styleDesktop";
+
+//MAIN PAGE BUFETE
 @import "./mobile/bufete";
+@import "./tablet/bufeteTablet";
+@import "./desktop/bufeteDesktop";
+
+//MAIN PAGE SERVICIOS
 @import "./mobile/servicios";
-@import "./mobile/servicios";
+@import "./tablet/serviciosTablet";
+@import "./desktop/serviciosDesktop";
+//MAIN PAGE CONTACTA
+@import "./mobile/contacta";
+@import "./tablet/contactaTablet";
+@import "./desktop/contactaDesktop";
 
 //WHATSAPP
 .whatsappIco > img{

@@ -1,0 +1,47 @@
+@media screen and (min-width: 500px) and (max-width: 1025px){
+    .header{
+        h1{
+            font-size: 2em;
+        
+        }
+    }
+    .main{
+        padding-top: 5%;
+        .img_main{
+            height: 30em;  
+        }
+        .sec{
+            .img{
+                height: 30em; 
+                margin-bottom: 10px;
+            }
+        }
+        .secOpiniones{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            margin-bottom: 2rem;
+            .opiniones{
+                display: grid;
+                grid-template-columns: 7em 1fr;
+            }
+        }
+    }
+    .footer{
+        .footerInfo{
+            font-size: large;
+        }
+    .redes{
+        width: 15%;
+    }
+    .infoHorario{
+        font-size: large;
+        .copyright{
+            font-size: normal;
+        }
+    }
+    }
+   
+
+
+}

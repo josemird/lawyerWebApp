@@ -352,11 +352,51 @@ p {
   padding-right: 12%;
   justify-content: center;
 }
+.main .secOpiniones .opiniones .txt_opinion:hover {
+  background-color: mistyrose;
+}
 .main .secMapa > iframe {
   height: 20rem;
   padding: 1rem 1rem;
 }
 
+@media screen and (min-width: 500px) and (max-width: 1025px) {
+  .header h1 {
+    font-size: 2em;
+  }
+  .main {
+    padding-top: 5%;
+  }
+  .main .img_main {
+    height: 30em;
+  }
+  .main .sec .img {
+    height: 30em;
+    margin-bottom: 10px;
+  }
+  .main .secOpiniones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 2rem;
+  }
+  .main .secOpiniones .opiniones {
+    display: grid;
+    grid-template-columns: 7em 1fr;
+  }
+  .footer .footerInfo {
+    font-size: large;
+  }
+  .footer .redes {
+    width: 15%;
+  }
+  .footer .infoHorario {
+    font-size: large;
+  }
+  .footer .infoHorario .copyright {
+    font-size: normal;
+  }
+}
 .main_bufete {
   display: grid;
   grid-template-columns: 1fr;
@@ -439,49 +479,49 @@ p {
   padding: 7% 8% 8%;
 }
 
-.main_servicios {
+.main_contacta {
   display: grid;
   grid-template-columns: 1fr;
   background-color: whitesmoke;
   padding-top: 16%;
 }
-.main_servicios .sec4 {
+.main_contacta .h2 {
+  text-align: center;
+  color: #863131;
+  margin: 10% 0 0 0;
+}
+.main_contacta .form_contacta {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  text-align: center;
+  padding: 7% 8% 8%;
+}
+.main_contacta .form_contacta .form {
+  display: grid;
+  grid-template-columns: 1fr;
   text-align: center;
 }
-.main_servicios .sec4 .img {
-  width: 100%;
-  height: 20em;
-  background-size: cover;
-  background-position: top;
-}
-.main_servicios .sec4 .img_servicios:hover {
-  opacity: 0.4;
-  cursor: pointer;
-}
-.main_servicios .sec4 .img_servicios1 {
-  background-image: url(../assets/img/sec1.jpg);
-}
-.main_servicios .sec4 .img_servicios2 {
-  background-image: url(../assets/img/sec2.jpg);
-}
-.main_servicios .sec4 .img_servicios3 {
-  background-image: url(../assets/img/sec3alternative.jpg);
-}
-.main_servicios .sec4 .img_servicios4 {
-  background-image: url(../assets/img/WSLawyer.jpg);
-}
-.main_servicios .sec4 .img_servicios5 {
-  background-image: url(../assets/img/atencion2.jpg);
-}
-.main_servicios .sec4 .img_servicios6 {
-  background-image: url(../assets/img/atencion.jpg);
-}
-.main_servicios .sec4 .txt_sec {
+.main_contacta .form_contacta .form > * {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding: 7% 8% 8%;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 3% 0;
+  padding: 3%;
+}
+.main_contacta .form_contacta .button {
+  display: flex;
+  text-align: center;
+  font-size: 1.1em;
+  border: #863131 solid 0.1em;
+  border-radius: 5.5px;
+  margin: 3% 35%;
+  align-items: center;
+  background-color: #863131;
+  color: white;
 }
 
 .whatsappIco > img {
