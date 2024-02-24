@@ -522,40 +522,47 @@ p {
   background-color: #333;
   width: 100%;
   color: white;
-  padding: 2em;
+  padding: 2rem;
   padding-bottom: 2rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: center;
-  gap: 5rem;
 }
 .footer .footerInfo {
+  display: flex;
+  flex-direction: row;
   font-size: small;
   text-align: center;
   justify-content: center;
   text-align: left;
   align-items: center;
+  gap: 3rem;
+}
+.footer .info > div {
+  padding-bottom: 1rem;
 }
 .footer .redes {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: right;
   width: 20%;
-  gap: 0.5srem;
 }
 .footer .redes > a {
-  padding-top: 1rem;
+  padding-bottom: 2rem;
   aspect-ratio: 1/1;
-  width: 40%;
+  width: 45%;
   height: auto 0;
 }
 .footer .redes > a:hover {
   cursor: pointer;
   filter: brightness(9%) sepia(65%) hue-rotate(300deg) saturate(4000%);
   transition: background-color 0.4s linear;
+}
+.footer .copyright {
+  font-size: x-small;
 }
 
 .whatsapp-icon {

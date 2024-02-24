@@ -234,67 +234,70 @@ p{
     }
 }
   
+@import "_bufete";
+@import "_servicios";
+@import "_contacta";
 
-
-    @import "_bufete";
-    @import "_servicios";
-    @import "_contacta";
-
-    //GLOBAL FOOTER
-    .footer{
-        background-color: $inky;
-        width: 100%;
-        color: white;
-        padding: 2em;
-        padding-bottom: 2rem;
+//GLOBAL FOOTER
+.footer{
+    background-color: $inky;
+    width: 100%;
+    color: white;
+    padding: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    .footerInfo {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        font-size: small;
         text-align: center;
         justify-content: center;
-        gap: 5rem;
-
-        .footerInfo {
-            font-size: small;
-            text-align: center;
-            justify-content: center;
-            text-align: left;
-            align-items: center;
-        }
-        .redes {
+        text-align: left;
+        align-items: center;
+        gap: 3rem;
+    }
+    .info > div{
+        padding-bottom: 1rem;
+    }
+    .redes {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: right;
         width: 20%;
-        gap: 0.5srem;
-        }
-        .redes > a {
-        padding-top: 1rem;
+    }
+    .redes > a {
+        padding-bottom: 2rem;
         aspect-ratio: 1/1;
-        width: 40%;
+        width: 45%;
         height: auto 0;
-        }
-        
-        .redes > a:hover {
+    }
+    .redes > a:hover {
         cursor: pointer;
         filter: brightness(9%) sepia(65%) hue-rotate(300deg) saturate(4000%);
         transition: background-color 0.4s linear;
-        }
-    
+    }
+    .copyright{
+        font-size: x-small;
     }
 
-    //WHATSAPP
-    .whatsapp-icon {
-        background-image: url(../assets/img/ico/whatssap-icon.png);
-        position: fixed;
+}
+
+//WHATSAPP
+.whatsapp-icon {
+    background-image: url(../assets/img/ico/whatssap-icon.png);
+    position: fixed;
+    opacity: 100%;
+    width: 20%;
+    bottom: 10%; 
+    right: 2.5%;
+    .whatsapp-icon:hover {
         opacity: 100%;
-        width: 20%;
-        bottom: 10%; 
-        right: 2.5%;
-        .whatsapp-icon:hover {
-            opacity: 100%;
-            transition: all 0.25s linear;
-            cursor: pointer;
-        }
+        transition: all 0.25s linear;
+        cursor: pointer;
     }
+}
