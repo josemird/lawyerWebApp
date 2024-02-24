@@ -360,6 +360,92 @@ p {
   padding: 1rem 1rem;
 }
 
+.whatsappIco > img {
+  position: fixed;
+  opacity: 79%;
+  width: 13%;
+  bottom: 27%;
+  right: 1.5%;
+}
+
+.whatsappIcon:hover {
+  opacity: 100%;
+  transition: all 0.25s linear;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #333;
+  width: 100%;
+  color: #ffffff;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.footer .footerInfo {
+  display: flex;
+  flex-direction: row;
+  font-size: medium;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+.footer .footerInfo .info > div {
+  padding-bottom: 1rem;
+}
+.footer .footerInfo .info > div > div {
+  color: mistyrose;
+}
+.footer .footerInfo .redes {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: right;
+  width: 20%;
+  padding-top: 2rem;
+}
+.footer .footerInfo .redes > a {
+  padding-bottom: 2rem;
+  aspect-ratio: 1/1;
+  width: 50%;
+  height: auto 0;
+}
+.footer .footerInfo .redes > a > svg:hover {
+  cursor: pointer;
+  color: mistyrose;
+  transition: background-color 0.4s linear;
+}
+.footer .footerInfo .redes > a > svg {
+  color: white;
+}
+.footer .infoHorario {
+  padding: 1rem;
+  border-top: mistyrose solid 0.1em;
+  border-bottom: mistyrose solid 0.1em;
+  font-size: normal;
+  letter-spacing: 0.1rem;
+}
+.footer td {
+  padding: 0 1rem;
+}
+.footer td:is(:nth-child(1)) {
+  color: mistyrose;
+}
+.footer .imgLogoFooter {
+  padding-top: 1.75rem;
+}
+.footer .copyright {
+  padding-top: 1rem;
+  color: mistyrose;
+  font-size: small;
+  line-height: 0.75rem;
+}
+
 @media screen and (min-width: 500px) and (max-width: 1025px) {
   .header h1 {
     font-size: 2em;
@@ -388,18 +474,32 @@ p {
     height: 35rem;
     padding: 1rem 2rem;
   }
+  .whatsappIco > img {
+    width: 10%;
+  }
   .footer .footerInfo {
     font-size: large;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
   }
   .footer .footerInfo .redes {
-    width: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    padding-top: 0;
+    padding-bottom: 1rem;
   }
-  .footer .infoHorario {
-    font-size: large;
+  .footer .footerInfo .redes > a {
+    padding-bottom: 0;
+    padding-right: 1rem;
+    margin: 0 auto;
   }
-  .footer .infoHorario .copyright {
-    font-size: normal;
+  .footer .footerInfo .redes > a > svg:is(:first-child) {
+    padding-top: 1rem;
   }
 }
 .main_bufete {
@@ -527,92 +627,4 @@ p {
   align-items: center;
   background-color: #863131;
   color: white;
-}
-
-.whatsappIco > img {
-  position: fixed;
-  opacity: 79%;
-  width: 13%;
-  bottom: 27%;
-  right: 1.5%;
-}
-
-.whatsappIcon:hover {
-  opacity: 100%;
-  transition: all 0.25s linear;
-  cursor: pointer;
-}
-
-.footer {
-  background-color: #333;
-  width: 100%;
-  color: #ffffff;
-  padding: 2rem;
-  padding-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-.footer .footerInfo {
-  display: flex;
-  flex-direction: row;
-  font-size: medium;
-  text-align: center;
-  justify-content: center;
-  text-align: left;
-  align-items: center;
-  gap: 2rem;
-  padding-bottom: 1rem;
-}
-.footer .footerInfo .info > div {
-  padding-bottom: 1rem;
-}
-.footer .footerInfo .info > div > div {
-  color: mistyrose;
-}
-.footer .footerInfo .redes {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  justify-content: right;
-  width: 20%;
-  padding-top: 2rem;
-}
-.footer .footerInfo .redes > a {
-  padding-bottom: 2rem;
-  aspect-ratio: 1/1;
-  width: 50%;
-  height: auto 0;
-}
-.footer .footerInfo .redes > a > svg:hover {
-  cursor: pointer;
-  color: mistyrose;
-  transition: background-color 0.4s linear;
-}
-.footer .footerInfo .redes > a > svg {
-  color: white;
-}
-.footer .infoHorario {
-  padding: 1rem;
-  border-top: mistyrose solid 0.1em;
-  border-bottom: mistyrose solid 0.1em;
-  font-size: normal;
-  letter-spacing: 0.1rem;
-}
-.footer td {
-  padding: 0 1rem;
-}
-.footer td:is(:nth-child(1)) {
-  color: mistyrose;
-}
-.footer .imgLogoFooter {
-  padding-top: 1.75rem;
-}
-.footer .copyright {
-  padding-top: 1rem;
-  color: mistyrose;
-  font-size: small;
-  line-height: 0.75rem;
 }/*# sourceMappingURL=style.css.map */

@@ -236,22 +236,6 @@ p{
  
     }
 }
-@import "./tablet/styleTablet";
-@import "./desktop/styleDesktop";
-
-//MAIN PAGE BUFETE
-@import "./mobile/bufete";
-@import "./tablet/bufeteTablet";
-@import "./desktop/bufeteDesktop";
-
-//MAIN PAGE SERVICIOS
-@import "./mobile/servicios";
-@import "./tablet/serviciosTablet";
-@import "./desktop/serviciosDesktop";
-//MAIN PAGE CONTACTA
-@import "./mobile/contacta";
-@import "./tablet/contactaTablet";
-@import "./desktop/contactaDesktop";
 
 //WHATSAPP
 .whatsappIco > img{
@@ -266,7 +250,6 @@ p{
          transition: all 0.25s linear;
          cursor: pointer;
 }
-
 
 //GLOBAL FOOTER
 .footer{
@@ -286,8 +269,6 @@ p{
         font-size: medium;
         text-align: center;
         justify-content: center;
-        text-align: left;
-        align-items: center;
         gap: 2rem;
         padding-bottom: 1rem;
         .info > div{
@@ -344,3 +325,20 @@ p{
         line-height: 0.75rem;
     }
 }
+
+@import "./tablet/styleTablet";
+@import "./desktop/styleDesktop";
+
+//MAIN PAGE BUFETE
+@import "./mobile/bufete";
+@import "./tablet/bufeteTablet";
+@import "./desktop/bufeteDesktop";
+
+//MAIN PAGE SERVICIOS
+@import "./mobile/servicios";
+@import "./tablet/serviciosTablet";
+@import "./desktop/serviciosDesktop";
+//MAIN PAGE CONTACTA
+@import "./mobile/contacta";
+@import "./tablet/contactaTablet";
+@import "./desktop/contactaDesktop";

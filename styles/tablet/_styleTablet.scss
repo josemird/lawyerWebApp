@@ -33,20 +33,39 @@
         }
     }
     
+
+    .whatsappIco > img{
+        width: 10%;
+    }
+
+
     .footer{
         .footerInfo{
             font-size: large;
-            flex-direction: column; 
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0; 
             .redes{
-                width: 10%;
-            }  
-        }
-        .infoHorario{
-            font-size: large;
-            .copyright{
-                font-size: normal;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 25%;
+                padding-top: 0;
+                padding-bottom: 1rem;
+            }
+            .redes > a{
+                padding-bottom: 0;
+                padding-right: 1rem;
+                margin: 0 auto;
+            }
+            .redes > a > svg:is(:first-child){
+                padding-top: 1rem;
             }
         }
+        
     } 
+    
 }
    
