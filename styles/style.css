@@ -560,13 +560,13 @@ p {
   width: 39%;
   height: auto 0;
 }
-.footer .footerInfo .redes > a:hover {
+.footer .footerInfo .redes > a > svg:hover {
   cursor: pointer;
-  filter: brightness(9%) sepia(65%) hue-rotate(300deg) saturate(4000%);
+  color: mistyrose;
   transition: background-color 0.4s linear;
 }
 .footer .footerInfo .redes > a > svg {
-  color: mistyrose;
+  color: white;
 }
 .footer .infoHorario {
   padding: 0.5rem;

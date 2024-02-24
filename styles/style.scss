@@ -279,13 +279,13 @@ p{
             width: 39%;
             height: auto 0;
         }
-        .redes > a:hover {
+        .redes > a > svg:hover {
             cursor: pointer;
-            filter: brightness(9%) sepia(65%) hue-rotate(300deg) saturate(4000%);
+            color: $mistyrose;
             transition: background-color 0.4s linear;
         }
         .redes > a > svg{
-            color: $mistyrose;
+            color: white;
         }
     }
     .infoHorario{
