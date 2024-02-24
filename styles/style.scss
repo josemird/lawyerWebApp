@@ -238,6 +238,21 @@ p{
 @import "_servicios";
 @import "_contacta";
 
+//WHATSAPP
+.whatsappIco > img{
+    position: fixed;
+    opacity: 79%;
+    width: 11%;
+    bottom: 31%; 
+    right: 1%; 
+}
+.whatsappIcon:hover {
+         opacity: 100%;
+         transition: all 0.25s linear;
+         cursor: pointer;
+}
+
+
 //GLOBAL FOOTER
 .footer{
     background-color: $inky;
@@ -307,17 +322,3 @@ p{
 }
 
 
-//WHATSAPP
-.whatsapp-icon {
-    background-image: url(../assets/img/ico/whatssap-icon.png);
-    position: fixed;
-    opacity: 100%;
-    width: 20%;
-    bottom: 10%; 
-    right: 2%;
-    .whatsapp-icon:hover {
-        opacity: 100%;
-        transition: all 0.25s linear;
-        cursor: pointer;
-    }
-}

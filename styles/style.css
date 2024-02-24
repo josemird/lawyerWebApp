@@ -518,6 +518,20 @@ p {
   color: white;
 }
 
+.whatsappIco > img {
+  position: fixed;
+  opacity: 79%;
+  width: 11%;
+  bottom: 31%;
+  right: 1%;
+}
+
+.whatsappIcon:hover {
+  opacity: 100%;
+  transition: all 0.25s linear;
+  cursor: pointer;
+}
+
 .footer {
   background-color: #333;
   width: 100%;
@@ -583,18 +597,4 @@ p {
   color: mistyrose;
   font-size: small;
   line-height: 0.75rem;
-}
-
-.whatsapp-icon {
-  background-image: url(../assets/img/ico/whatssap-icon.png);
-  position: fixed;
-  opacity: 100%;
-  width: 20%;
-  bottom: 10%;
-  right: 2%;
-}
-.whatsapp-icon .whatsapp-icon:hover {
-  opacity: 100%;
-  transition: all 0.25s linear;
-  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
