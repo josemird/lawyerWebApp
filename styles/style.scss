@@ -287,6 +287,7 @@ p{
             align-items: end;
             justify-content: right;
             width: 20%;
+            padding-top: 2rem;
         }
         .redes > a {
             padding-bottom: 2rem;
@@ -304,12 +305,20 @@ p{
         }
     }
     .infoHorario{
-        padding: 0.5rem;
+        padding: 1rem;
         border-top: $mistyrose solid 0.1em;
         border-bottom: $mistyrose solid 0.1em;
         font-size: normal;
         letter-spacing: 0.1rem;
     }
+   
+    td{
+        padding: 0 1rem;
+    }
+    td:is(:nth-child(1)){
+        color: $mistyrose;
+    }
+
     .imgLogoFooter{
         padding-top: 1.75rem;
     }
