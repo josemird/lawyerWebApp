@@ -242,7 +242,7 @@ p{
 .footer{
     background-color: $inky;
     width: 100%;
-    color: white;
+    color: #ffffff;
     padding: 2rem;
     padding-bottom: 2rem;
     display: flex;
@@ -258,34 +258,38 @@ p{
         justify-content: center;
         text-align: left;
         align-items: center;
-        gap: 3rem;
+        gap: 2rem;
         padding-bottom: 1rem;
-    }
-    .info > div{
-        padding-bottom: 1rem;
-    }
-    .info > div > div{
-        color: $mistyrose;
-    }
-    .redes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: right;
-        width: 20%;
-    }
-    .redes > a {
-        padding-bottom: 2rem;
-        aspect-ratio: 1/1;
-        width: 45%;
-        height: auto 0;
-    }
-    .redes > a:hover {
-        cursor: pointer;
-        filter: brightness(9%) sepia(65%) hue-rotate(300deg) saturate(4000%);
-        transition: background-color 0.4s linear;
+        .info > div{
+            padding-bottom: 1rem;
+        }
+        .info > div > div{
+            color: $mistyrose;
+        }
+        .redes {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: right;
+            width: 20%;
+        }
+        .redes > a {
+            padding-bottom: 2rem;
+            aspect-ratio: 1/1;
+            width: 39%;
+            height: auto 0;
+        }
+        .redes > a:hover {
+            cursor: pointer;
+            filter: brightness(9%) sepia(65%) hue-rotate(300deg) saturate(4000%);
+            transition: background-color 0.4s linear;
+        }
+        .redes > a > svg{
+            color: $mistyrose;
+        }
     }
     .infoHorario{
+        padding: 0.5rem;
         border-top: $mistyrose solid 0.1em;
         border-bottom: $mistyrose solid 0.1em;
         font-size: smaller;
@@ -296,11 +300,12 @@ p{
     }
     .copyright{
         padding-top: 1rem;
-        color: $whitesmoke;
+        color: $mistyrose;
         font-size: xx-small;
-
+        line-height: 0.75rem;
     }
 }
+
 
 
 //WHATSAPP
