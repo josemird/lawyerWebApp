@@ -533,7 +533,7 @@ p {
 .footer .footerInfo {
   display: flex;
   flex-direction: row;
-  font-size: small;
+  font-size: medium;
   text-align: center;
   justify-content: center;
   text-align: left;
@@ -557,7 +557,7 @@ p {
 .footer .footerInfo .redes > a {
   padding-bottom: 2rem;
   aspect-ratio: 1/1;
-  width: 39%;
+  width: 50%;
   height: auto 0;
 }
 .footer .footerInfo .redes > a > svg:hover {
@@ -572,7 +572,7 @@ p {
   padding: 0.5rem;
   border-top: mistyrose solid 0.1em;
   border-bottom: mistyrose solid 0.1em;
-  font-size: smaller;
+  font-size: small;
   letter-spacing: 0.1rem;
 }
 .footer .imgLogoFooter {
@@ -581,7 +581,7 @@ p {
 .footer .copyright {
   padding-top: 1rem;
   color: mistyrose;
-  font-size: xx-small;
+  font-size: x-small;
   line-height: 0.75rem;
 }
 
