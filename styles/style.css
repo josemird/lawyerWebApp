@@ -407,7 +407,6 @@ p {
   align-items: end;
   justify-content: right;
   width: 20%;
-  padding-top: 2rem;
 }
 .footer .footerInfo .redes > a {
   padding-bottom: 2rem;
@@ -489,7 +488,7 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 25%;
+    width: 20%;
     padding-top: 0;
     padding-bottom: 1rem;
   }
