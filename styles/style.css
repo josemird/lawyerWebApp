@@ -384,11 +384,16 @@ p {
     display: grid;
     grid-template-columns: 7em 1fr;
   }
+  .main .secMapa > iframe {
+    height: 35rem;
+    padding: 1rem 2rem;
+  }
   .footer .footerInfo {
     font-size: large;
+    flex-direction: column;
   }
-  .footer .redes {
-    width: 15%;
+  .footer .footerInfo .redes {
+    width: 10%;
   }
   .footer .infoHorario {
     font-size: large;

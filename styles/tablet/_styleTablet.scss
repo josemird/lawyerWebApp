@@ -5,6 +5,7 @@
         
         }
     }
+
     .main{
         padding-top: 5%;
         .img_main{
@@ -26,22 +27,26 @@
                 grid-template-columns: 7em 1fr;
             }
         }
+        .secMapa > iframe{
+            height: 35rem;
+            padding: 1rem 2rem;
+        }
     }
+    
     .footer{
         .footerInfo{
             font-size: large;
+            flex-direction: column; 
+            .redes{
+                width: 10%;
+            }  
         }
-    .redes{
-        width: 15%;
-    }
-    .infoHorario{
-        font-size: large;
-        .copyright{
-            font-size: normal;
+        .infoHorario{
+            font-size: large;
+            .copyright{
+                font-size: normal;
+            }
         }
-    }
-    }
-   
-
-
+    } 
 }
+   
