@@ -234,9 +234,9 @@ p{
     }
 }
   
-@import "_bufete";
-@import "_servicios";
-@import "_contacta";
+@import "/styles/mobile/bufete";
+@import "/styles/mobile/servicios";
+@import "/styles/mobile/contacta";
 
 //WHATSAPP
 .whatsappIco > img{
@@ -329,8 +329,3 @@ p{
         line-height: 0.75rem;
     }
 }
-
-
-//TABLET
-
-
