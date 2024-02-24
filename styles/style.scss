@@ -259,9 +259,13 @@ p{
         text-align: left;
         align-items: center;
         gap: 3rem;
+        padding-bottom: 1rem;
     }
     .info > div{
         padding-bottom: 1rem;
+    }
+    .info > div > div{
+        color: $mistyrose;
     }
     .redes {
         display: flex;
@@ -281,11 +285,23 @@ p{
         filter: brightness(9%) sepia(65%) hue-rotate(300deg) saturate(4000%);
         transition: background-color 0.4s linear;
     }
-    .copyright{
-        font-size: x-small;
+    .infoHorario{
+        border-top: $mistyrose solid 0.1em;
+        border-bottom: $mistyrose solid 0.1em;
+        font-size: smaller;
+        letter-spacing: 0.1rem;
     }
+    .imgLogoFooter{
+        padding-top: 1.5rem;
+    }
+    .copyright{
+        padding-top: 1rem;
+        color: $whitesmoke;
+        font-size: xx-small;
 
+    }
 }
+
 
 //WHATSAPP
 .whatsapp-icon {
