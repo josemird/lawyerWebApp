@@ -572,7 +572,7 @@ p {
   padding: 0.5rem;
   border-top: mistyrose solid 0.1em;
   border-bottom: mistyrose solid 0.1em;
-  font-size: small;
+  font-size: normal;
   letter-spacing: 0.1rem;
 }
 .footer .imgLogoFooter {
@@ -581,7 +581,7 @@ p {
 .footer .copyright {
   padding-top: 1rem;
   color: mistyrose;
-  font-size: x-small;
+  font-size: small;
   line-height: 0.75rem;
 }
 
