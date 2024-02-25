@@ -324,7 +324,7 @@ p {
   cursor: pointer;
 }
 .main .secOpiniones .opiniones .img_opinion:active {
-  scale: 3;
+  scale: 2.5;
   transition: all 0.3s ease;
   margin-left: 100%;
   cursor: pointer;
