@@ -31,13 +31,14 @@
     }
     .main{
         padding-top: 0%;
-        padding: 2% 7% 2%;
+        padding: 2% 0;
         .img_main{
             background-position: top;
             height: 25em;
             border-radius: 25px;
         }
         .portada{
+            padding: 0 7%;
             .txt_portada{
                 padding: 3% 16%;
             }
@@ -46,13 +47,14 @@
             }   
         }   
         .sec{
+            padding: 0 7%;
             padding-bottom: 6rem;
             display:grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
             gap: 2.5rem 10rem;
             .img{
-                height: 22em; 
+                height: 20em; 
                 margin-bottom: 10px;
                 border-radius: 6px;
             }
@@ -62,7 +64,7 @@
             }
             .txt_sec{
                 display: flex;
-                padding: 0 5rem 0;
+                padding: 0 3rem 0;
                 .btn_main2{
                     margin-top: 1.5rem;
                 
@@ -70,7 +72,7 @@
             }
             .txt_sec_Desktop{
                 display: flex;
-                padding: 0 5rem 0;
+                padding: 0 3rem 0;
                 .btn_main3{
                     display: flex;
                     margin-top: 1.5rem;

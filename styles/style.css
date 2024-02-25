@@ -590,12 +590,15 @@ p {
   }
   .main {
     padding-top: 0%;
-    padding: 2% 7% 2%;
+    padding: 2% 0;
   }
   .main .img_main {
     background-position: top;
     height: 25em;
     border-radius: 25px;
+  }
+  .main .portada {
+    padding: 0 7%;
   }
   .main .portada .txt_portada {
     padding: 3% 16%;
@@ -604,6 +607,7 @@ p {
     padding-bottom: 3%;
   }
   .main .sec {
+    padding: 0 7%;
     padding-bottom: 6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -611,7 +615,7 @@ p {
     gap: 2.5rem 10rem;
   }
   .main .sec .img {
-    height: 22em;
+    height: 20em;
     margin-bottom: 10px;
     border-radius: 6px;
   }
@@ -621,14 +625,14 @@ p {
   }
   .main .sec .txt_sec {
     display: flex;
-    padding: 0 5rem 0;
+    padding: 0 3rem 0;
   }
   .main .sec .txt_sec .btn_main2 {
     margin-top: 1.5rem;
   }
   .main .sec .txt_sec_Desktop {
     display: flex;
-    padding: 0 5rem 0;
+    padding: 0 3rem 0;
   }
   .main .sec .txt_sec_Desktop .btn_main3 {
     display: flex;
