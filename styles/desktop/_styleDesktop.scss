@@ -91,7 +91,17 @@
             .opiniones{
                 display: grid;
                 grid-template-columns: 6.5em 1fr;
-                padding: 0% 1%;   
+                padding: 0% 1%;
+                .img_opinion:hover{
+                    scale: 1.4;
+                    cursor: pointer;
+                }
+                .img_opinion:active{
+                    scale: 3;
+                    transition: all 0.3s ease;
+                    margin-left: 0%;
+                    cursor: pointer;
+                }   
                 .txt_opinion{
                     font-size: 0.8em;
                 }

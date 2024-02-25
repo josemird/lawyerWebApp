@@ -653,6 +653,16 @@ p {
     grid-template-columns: 6.5em 1fr;
     padding: 0% 1%;
   }
+  .main .secOpiniones .opiniones .img_opinion:hover {
+    scale: 1.4;
+    cursor: pointer;
+  }
+  .main .secOpiniones .opiniones .img_opinion:active {
+    scale: 3;
+    transition: all 0.3s ease;
+    margin-left: 0%;
+    cursor: pointer;
+  }
   .main .secOpiniones .opiniones .txt_opinion {
     font-size: 0.8em;
   }
@@ -916,6 +926,9 @@ p {
   color: #863131;
   margin: 10% 0 0 0;
 }
+.main_contacta .img_contacta {
+  display: none;
+}
 .main_contacta .form_contacta {
   display: flex;
   flex-direction: column;
@@ -975,6 +988,9 @@ p {
   .main_contacta {
     padding-top: 0;
   }
+  .main_contacta .img_contacta {
+    display: none;
+  }
   .main_contacta .form_contacta {
     padding: 14% 14% 14%;
   }
@@ -987,10 +1003,22 @@ p {
 }
 @media screen and (min-width: 1025px) {
   .main_contacta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding-top: 0;
   }
+  .main_contacta .img {
+    width: 80%;
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+  }
+  .main_contacta .img_contacta {
+    display: flex;
+    background-image: url("../../assets/img/fotoContacta.jpg");
+  }
   .main_contacta .form_contacta {
-    padding: 14% 14% 14%;
+    padding: 7% 28.5% 7% 10%;
   }
   .main_contacta .form_contacta .form > * {
     margin: 3% 4%;

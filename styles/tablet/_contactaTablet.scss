@@ -1,6 +1,9 @@
 @media screen and (min-width: 500px) and (max-width: 1025px){
     .main_contacta{
         padding-top: 0;
+        .img_contacta{
+        display: none;
+        }
         .form_contacta{
             padding: 14% 14% 14%;
             .form > *{
