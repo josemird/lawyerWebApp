@@ -551,6 +551,13 @@ p {
     height: 24rem;
     border-radius: 2%;
   }
+  .main_bufete .sec2 .txt_sec {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 6% 5% 5%;
+  }
 }
 .main_servicios {
   display: grid;
