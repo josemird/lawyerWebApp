@@ -646,7 +646,7 @@ p {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     margin-bottom: 2rem;
-    padding: 2% 0% 4% 0%;
+    padding: 3% 1% 4% 3%;
   }
   .main .secOpiniones .opiniones {
     display: grid;
