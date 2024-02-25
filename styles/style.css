@@ -519,16 +519,16 @@ p {
   cursor: pointer;
 }
 .main_bufete .sec2 .img_bufete1 {
-  background-image: url(../assets/img/abogado1.jpg);
+  background-image: url(../../assets/img/abogado1.jpg);
 }
 .main_bufete .sec2 .img_bufete2 {
-  background-image: url(../assets/img/abogado2.jpg);
+  background-image: url(../../assets/img/abogado2.jpg);
 }
 .main_bufete .sec2 .img_bufete3 {
-  background-image: url(../assets/img/main2Lawyer.jpg);
+  background-image: url(../../assets/img/main2Lawyer.jpg);
 }
 .main_bufete .sec2 .img_bufete4 {
-  background-image: url(../assets/img/main3Lawyer.jpg);
+  background-image: url(../../assets/img/main3Lawyer.jpg);
 }
 .main_bufete .sec2 .txt_sec {
   display: flex;
@@ -548,7 +548,7 @@ p {
     padding: 0 10%;
   }
   .main_bufete .sec2 .img {
-    height: 23rem;
+    height: 24rem;
     border-radius: 2%;
   }
 }
@@ -572,22 +572,22 @@ p {
   cursor: pointer;
 }
 .main_servicios .sec4 .img_servicios1 {
-  background-image: url(../assets/img/sec1.jpg);
+  background-image: url(../../assets/img/sec1.jpeg);
 }
 .main_servicios .sec4 .img_servicios2 {
-  background-image: url(../assets/img/sec2.jpg);
+  background-image: url(../../assets/img/sec2.jpg);
 }
 .main_servicios .sec4 .img_servicios3 {
-  background-image: url(../assets/img/sec3alternative.jpg);
+  background-image: url(../../assets/img/sec3alternative.jpg);
 }
 .main_servicios .sec4 .img_servicios4 {
-  background-image: url(../assets/img/WSLawyer.jpg);
+  background-image: url(../../assets/img/WSLawyer.jpg);
 }
 .main_servicios .sec4 .img_servicios5 {
-  background-image: url(../assets/img/atencion2.jpg);
+  background-image: url(../../assets/img/atencion.jpg);
 }
 .main_servicios .sec4 .img_servicios6 {
-  background-image: url(../assets/img/atencion.jpg);
+  background-image: url(../../assets/img/atencion2.jpg);
 }
 .main_servicios .sec4 .txt_sec {
   display: flex;
@@ -597,6 +597,20 @@ p {
   padding: 7% 8% 8%;
 }
 
+@media screen and (min-width: 500px) and (max-width: 1025px) {
+  .main_servicios {
+    padding-top: 15%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .main_servicios .sec4 {
+    padding: 0 10%;
+  }
+  .main_servicios .sec4 .img {
+    height: 24rem;
+    border-radius: 2%;
+  }
+}
 .main_contacta {
   display: grid;
   grid-template-columns: 1fr;
