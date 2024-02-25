@@ -199,7 +199,9 @@ p{
                 cursor: pointer;
             }
             .img_opinion:active{
-                scale: 2.5;
+                scale: 3;
+                transition: all 0.3s ease;
+                margin-left: 100%;
                 cursor: pointer;
             }
             .img_opinion1{
