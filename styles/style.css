@@ -231,7 +231,7 @@ p {
   background-color: whitesmoke;
   padding-top: 16%;
 }
-.main .img_main {
+.main .div_main .img_main {
   background-image: url(../assets/img/mainLawyer.jpg);
   width: 100%;
   height: 20em;
@@ -592,7 +592,10 @@ p {
     padding-top: 0%;
     padding: 2% 0;
   }
-  .main .img_main {
+  .main .div_main {
+    padding: 0 7%;
+  }
+  .main .div_main .img_main {
     background-position: top;
     height: 26.5em;
     border-radius: 25px;
