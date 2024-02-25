@@ -556,7 +556,7 @@ p {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding: 6% 1% 9% 1%;
+    padding: 6% 1% 12% 1%;
   }
   .main_bufete .sec2 .txt_sec > p {
     padding: 0 1rem !important;
@@ -626,7 +626,7 @@ p {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding: 7% 1% 9% 1%;
+    padding: 7% 1% 12% 1%;
   }
   .main_servicios .sec4 .txt_sec > p {
     padding: 0 1rem !important;
