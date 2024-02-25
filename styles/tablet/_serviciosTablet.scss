@@ -6,15 +6,16 @@
         .sec4{
             padding: 0 17%;
             .img{
-                height: 19rem;
+                height: 15rem;
                 border-radius: 2%;
+                background-position: center; 
             }
             .txt_sec{
                 display: flex;
                 flex-direction: column;
                 text-align: center;
                 justify-content: center;
-                padding: 6% 5% 5%;
+                padding: 6% 4% 4%;
             }
         }
 
