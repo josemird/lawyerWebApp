@@ -610,7 +610,7 @@ p {
     gap: 2.5rem 10rem;
   }
   .main .sec .img {
-    height: 30em;
+    height: 22em;
     margin-bottom: 10px;
     border-radius: 6px;
   }
@@ -619,6 +619,7 @@ p {
     background-image: url("../../assets/img/atencion2.jpg");
   }
   .main .sec .txt_sec {
+    display: flex;
     padding: 0 5rem 0;
   }
   .main .sec .txt_sec .btn_main2 {
@@ -626,7 +627,7 @@ p {
   }
   .main .sec .txt_sec_Desktop {
     display: flex;
-    padding: 0.1rem 0;
+    padding: 0 5rem 0;
   }
   .main .sec .txt_sec_Desktop .btn_main3 {
     display: flex;

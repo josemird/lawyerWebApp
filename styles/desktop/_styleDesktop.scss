@@ -51,7 +51,7 @@
             grid-template-rows: 1fr;
             gap: 2.5rem 10rem;
             .img{
-                height: 30em; 
+                height: 22em; 
                 margin-bottom: 10px;
                 border-radius: 6px;
             }
@@ -60,6 +60,7 @@
                 background-image: url('../../assets/img/atencion2.jpg');
             }
             .txt_sec{
+                display: flex;
                 padding: 0 5rem 0;
                 .btn_main2{
                     margin-top: 1.5rem;
@@ -68,7 +69,7 @@
             }
             .txt_sec_Desktop{
                 display: flex;
-                padding: 0.1rem 0;
+                padding: 0 5rem 0;
                 .btn_main3{
                     display: flex;
                     margin-top: 1.5rem;
