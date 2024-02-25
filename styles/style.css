@@ -667,10 +667,7 @@ p {
   padding: 3%;
 }
 .main_contacta .form_contacta .form > *:hover {
-  border: 1px solid #863131;
-}
-.main_contacta .form_contacta .form > *:focus {
-  background-color: 1px solid mistyrose;
+  border: 2px solid #863131;
 }
 .main_contacta .form_contacta .form > textarea {
   padding: 6%;
@@ -685,6 +682,11 @@ p {
   align-items: center;
   background-color: #863131;
   color: white;
+}
+.main_contacta .form_contacta .button:hover, .main_contacta .form_contacta .button:active, .main_contacta .form_contacta .button:focus {
+  background-color: #333;
+  border: #333 solid 0.1em;
+  color: mistyrose;
 }
 
 @media screen and (max-width: 331px) {

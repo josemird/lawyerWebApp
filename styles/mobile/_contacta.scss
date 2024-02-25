@@ -31,10 +31,7 @@
             padding: 3%;
         }
         .form > *:hover{
-            border: 1px solid $darkredbrown;
-        }
-        .form > *:focus{
-            background-color: 1px solid $mistyrose;
+            border: 2px solid $darkredbrown;
         }
         .form > textarea{
             padding: 6%;
@@ -49,6 +46,11 @@
             align-items: center;
             background-color: $darkredbrown;
             color: $white;
+        }
+        .button:hover, .button:active, .button:focus{
+            background-color: $inky;
+            border: $inky solid 0.1em;
+            color: $mistyrose;
         }
     }
 }
