@@ -625,6 +625,9 @@ p {
     justify-content: center;
     padding: 7% 1% 1%;
   }
+  .main_servicios .sec4 .txt_sec > p {
+    padding: 0 0 !important;
+  }
 }
 .main_contacta {
   display: grid;
