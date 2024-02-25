@@ -654,6 +654,7 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
+  padding-top: 2%;
 }
 .main_contacta .form_contacta .form > * {
   display: flex;
@@ -661,17 +662,26 @@ p {
   text-align: center;
   justify-content: center;
   border: 1px solid #333;
-  border-radius: 5px;
-  margin: 3% 0;
+  border-radius: 3px;
+  margin: 3% 4%;
   padding: 3%;
+}
+.main_contacta .form_contacta .form > *:hover {
+  border: 1px solid #863131;
+}
+.main_contacta .form_contacta .form > *:focus {
+  background-color: 1px solid mistyrose;
+}
+.main_contacta .form_contacta .form > textarea {
+  padding: 6%;
 }
 .main_contacta .form_contacta .button {
   display: flex;
   text-align: center;
   font-size: 1.1em;
   border: #863131 solid 0.1em;
-  border-radius: 5.5px;
-  margin: 3% 35%;
+  border-radius: 4px;
+  margin: 3% 33%;
   align-items: center;
   background-color: #863131;
   color: white;
@@ -690,6 +700,9 @@ p {
     padding: 14% 14% 14%;
   }
   .main_contacta .form_contacta .form > * {
-    margin: 3% 3%;
+    margin: 3% 4%;
+  }
+  .main_contacta .form_contacta .button {
+    margin: 1% 37%;
   }
 }/*# sourceMappingURL=style.css.map */
