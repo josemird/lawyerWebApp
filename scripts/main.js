@@ -1,4 +1,4 @@
-/*Cuando hago click .button, .nav TOGGLE 'active'*/
+//MENU HAMBURGUESA
 
 const button = document.querySelector('.button');
 const nav = document.querySelector('.nav');
@@ -25,6 +25,8 @@ button.addEventListener('click', () => {
         });
 });
 
+
+//CARGAR MAPA ASÍNCRONO AL FINAL
 async function cargarMapaAsync() {
     await new Promise(resolve => {
         document.addEventListener("DOMContentLoaded", resolve);
