@@ -41,6 +41,10 @@
             color: $white;
         }
     }
+}
 
-
+@media screen and (max-width: 331px){
+    .main_contacta{
+        padding-top: 45%;
+    }
 }

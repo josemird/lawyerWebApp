@@ -675,4 +675,21 @@ p {
   align-items: center;
   background-color: #863131;
   color: white;
+}
+
+@media screen and (max-width: 331px) {
+  .main_contacta {
+    padding-top: 45%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1025px) {
+  .main_contacta {
+    padding-top: 0;
+  }
+  .main_contacta .form_contacta {
+    padding: 14% 14% 14%;
+  }
+  .main_contacta .form_contacta .form > * {
+    margin: 3% 3%;
+  }
 }/*# sourceMappingURL=style.css.map */
