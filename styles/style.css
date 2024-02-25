@@ -604,10 +604,10 @@ p {
     grid-template-rows: 1fr;
   }
   .main_servicios .sec4 {
-    padding: 0 15%;
+    padding: 0 17%;
   }
   .main_servicios .sec4 .img {
-    height: 24rem;
+    height: 19rem;
     border-radius: 2%;
   }
 }
