@@ -610,6 +610,13 @@ p {
     height: 19rem;
     border-radius: 2%;
   }
+  .main_servicios .sec4 .txt_sec {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 6% 5% 5%;
+  }
 }
 .main_contacta {
   display: grid;
