@@ -1,0 +1,26 @@
+@media screen and (min-width: 1025px){
+    .main_bufete{
+        padding-top: 15%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        .sec2{
+            padding: 0 10%;
+            .img{
+                height: 24rem;
+                border-radius: 2%;
+            }
+            .txt_sec{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                padding: 6% 1% 12% 1%;
+            }
+            .txt_sec > p{
+                padding: 0 1rem !important;            
+            }
+        
+        }
+
+    }
+}

@@ -1,0 +1,14 @@
+@media screen and (min-width: 1025px){
+    .main_contacta{
+        padding-top: 0;
+        .form_contacta{
+            padding: 14% 14% 14%;
+            .form > *{
+                margin: 3% 4%;
+            }
+            .button{
+                margin: 1% 37%;
+            }
+        }
+    }
+}

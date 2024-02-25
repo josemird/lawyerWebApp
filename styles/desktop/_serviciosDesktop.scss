@@ -1,0 +1,26 @@
+@media screen and (min-width: 1025px){
+    .main_servicios{
+        padding-top: 15%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        .sec4{
+            padding: 0 14%;
+            .img{
+                height: 14rem;
+                border-radius: 2%;
+                background-position: center; 
+            }
+            .txt_sec{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                padding: 7% 1% 9% 1%;
+               
+            }
+            .txt_sec > p{
+                padding: 0 1rem !important;            
+            }
+        }
+    }
+}

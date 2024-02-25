@@ -1,0 +1,163 @@
+@media screen and (min-width: 1025px){
+    h3{
+        padding: 0px 50px 0px 30px;
+    }
+    .header{
+        @include mixin.flex(row, wrap, space-between, center);
+        .h1{
+            margin: 0.1em 0 0.1em 0;
+            font-family: var(--tipo-secundaria);
+            font-size: 2.5em;
+            padding-left: 1em;
+        }
+        .nav{
+            padding-right: 1em;
+        }
+        li:hover, a:hover {
+            cursor: pointer;
+            text-decoration: underline;
+            text-decoration-color: black;
+            text-decoration-thickness: 0.15rem; 
+            text-underline-offset: 8px; 
+            transition: text-decoration-color 0.4s linear;
+          }
+        .nav > ul > li{
+            padding: 0 0.5em;
+        }
+    }
+    .main{
+        padding-top: 0%;
+        padding: 2% 7% 2%;
+        .img_main{
+            background-position: top;
+            height: 26em;
+            border-radius: 25px;
+        }
+        .portada{
+            .txt_portada{
+                padding: 3% 16%;
+            }
+            .txt_portada > *{
+                padding-bottom: 3%;
+            }   
+        }   
+        .sec{
+            padding-bottom: 6rem;
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 2.5rem 10rem;
+            .img{
+                height: 30em; 
+                margin-bottom: 10px;
+                border-radius: 6px;
+            }
+            .img_main3{
+                display: flex;
+                background-image: url('../../assets/img/atencion2.jpg');
+            }
+            .txt_sec{
+                padding: 0 5rem 0;
+                .btn_main2{
+                    margin-top: 1.5rem;
+                
+                }
+            }
+            .txt_sec_Desktop{
+                display: flex;
+                padding: 0.1rem 0;
+                .btn_main3{
+                    display: flex;
+                    margin-top: 1.5rem;
+                }
+            }
+        }
+        .secOpiniones{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            margin-bottom: 2rem;
+            padding: 2% 0% 4% 0%;
+            .opiniones{
+                display: grid;
+                grid-template-columns: 6.5em 1fr;
+                padding: 0% 1%;   
+                .txt_opinion{
+                    font-size: 0.8em;
+                }
+            }
+        }
+        .secMapa > iframe{
+            height: 45rem;
+            padding: 3rem 6rem;
+        }
+    }
+    
+
+    .whatsappIco > img{
+        width: 3.1rem;
+        bottom: 5%; 
+        right: 1%;
+    }
+    .whatsappIco > img:hover{
+        scale: 1.3;
+        cursor: pointer;
+    }
+
+
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        .footerInfo{
+            font-size: large;
+            flex-direction: column;
+            align-items: center;
+            align-self: start;
+            justify-content: center;
+            gap: 0; 
+            .redes{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                width: 9rem;
+                padding-top: 0;
+                padding-bottom: 1rem;
+            }
+            .redes > a{
+                padding-bottom: 0;
+                padding-right: 1rem;
+                margin: 0 auto;
+            }
+            .redes > a > svg:is(:first-child){
+                padding-top: 1rem;
+            }
+        }
+        .infoHorario{
+            font-size: large;
+            flex-direction: column;
+            align-items: center;
+            align-self: center;
+            justify-content: center;
+            line-height: 2rem;
+            gap: 0; 
+        }
+        .imgLogoFooter{
+            width: 65%;
+            bottom: 27%; 
+            right: 1.5%; 
+        }
+        .copyright{
+            padding-top: 1rem;
+            color: $mistyrose;
+            font-size: normal;
+            line-height: 1rem;
+        }
+        
+    } 
+    
+}
+   

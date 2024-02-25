@@ -52,7 +52,6 @@ p{
         margin: 0.1em 0 0.1em 0;
         font-family: var(--tipo-secundaria);
         font-size: 1.85em;
-
     }
     .svg{
         margin: 0.1em 0em 0.1em 0;
@@ -155,11 +154,14 @@ p{
             margin-bottom: 10px;
         }
         .img:hover{
-            opacity: 0.4;
+            opacity: 0.9;
             cursor: pointer;
         }
         .img_main2{
             background-image: url(../assets/img/main4.jpg);
+        }
+        .img_main3{
+            display: none;
         }
         .txt_sec{
             display: flex;
@@ -167,6 +169,43 @@ p{
             text-align: center;
             justify-content: center;
             padding: 7% 8% 8%;
+            .btn_main2{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-self: center;
+                font-size: 1.3em;
+                border: $darkredbrown solid 0.1em;
+                border-radius: 5.5px;
+                margin-top: 0;
+                align-items: center;
+                height: 3rem;
+                width: 10rem;
+                background-color: $darkredbrown;
+                color: $white;
+            }
+        }
+        .txt_sec_Desktop{
+            display: none;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            padding: 7% 8% 8%;
+            .btn_main3{
+                display: none;
+                text-align: center;
+                justify-content: center;
+                align-self: center;
+                font-size: 1.3em;
+                border: $darkredbrown solid 0.1em;
+                border-radius: 5.5px;
+                margin-top: 0;
+                align-items: center;
+                height: 3rem;
+                width: 10rem;
+                background-color: $darkredbrown;
+                color: $white;
+            }
         }  
     }
 
@@ -204,6 +243,10 @@ p{
                 margin-left: 100%;
                 cursor: pointer;
             }
+            .img_opinion:not(:active){
+                scale: 1;
+                transition: all 0.3s ease;
+            }
             .img_opinion1{
                 background-image: url(../assets/img/p1.jpg);
             }
@@ -221,7 +264,7 @@ p{
                 flex-direction: column;
                 justify-content: center;
                 text-align: left;
-                font-size: 0.75em;
+                font-size: 0.79em;
                 padding-top: 0.5rem;
                 border-top-right-radius: 4px;
                 border-bottom-right-radius: 4px;
@@ -260,9 +303,9 @@ p{
     right: 1.5%; 
 }
 .whatsappIcon:hover{
-         opacity: 100%;
-         transition: all 0.25s linear;
-         cursor: pointer;
+    opacity: 100%;
+    transition: all 0.25s linear;
+    cursor: pointer;
 }
 
 //GLOBAL FOOTER
