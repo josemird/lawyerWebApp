@@ -600,11 +600,11 @@ p {
 @media screen and (min-width: 500px) and (max-width: 1025px) {
   .main_servicios {
     padding-top: 15%;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
   .main_servicios .sec4 {
-    padding: 0 10%;
+    padding: 0 15%;
   }
   .main_servicios .sec4 .img {
     height: 24rem;
