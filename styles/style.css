@@ -786,12 +786,13 @@ p {
 }
 @media screen and (min-width: 1025px) {
   .main_bufete {
-    padding-top: 15%;
-    grid-template-columns: 1fr 1fr;
+    padding-top: 5.5%;
+    padding-bottom: 1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
   .main_bufete .sec2 {
-    padding: 0 10%;
+    padding: 0 20%;
   }
   .main_bufete .sec2 .img {
     height: 24rem;
@@ -880,15 +881,16 @@ p {
 }
 @media screen and (min-width: 1025px) {
   .main_servicios {
-    padding-top: 15%;
-    grid-template-columns: 1fr;
+    padding-top: 7%;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    padding: 5% 10%;
   }
   .main_servicios .sec4 {
-    padding: 0 14%;
+    padding: 2% 8%;
   }
   .main_servicios .sec4 .img {
-    height: 14rem;
+    height: 18rem;
     border-radius: 2%;
     background-position: center;
   }

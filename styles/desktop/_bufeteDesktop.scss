@@ -1,10 +1,11 @@
 @media screen and (min-width: 1025px){
     .main_bufete{
-        padding-top: 15%;
-        grid-template-columns: 1fr 1fr;
+        padding-top: 5.5%;
+        padding-bottom: 1%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         .sec2{
-            padding: 0 10%;
+            padding: 0 20%;
             .img{
                 height: 24rem;
                 border-radius: 2%;

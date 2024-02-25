@@ -1,12 +1,13 @@
 @media screen and (min-width: 1025px){
     .main_servicios{
-        padding-top: 15%;
-        grid-template-columns: 1fr;
+        padding-top: 7%;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
+        padding: 5% 10%;
         .sec4{
-            padding: 0 14%;
+            padding: 2% 8%;
             .img{
-                height: 14rem;
+                height: 18rem;
                 border-radius: 2%;
                 background-position: center; 
             }
