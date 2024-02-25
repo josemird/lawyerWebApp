@@ -210,7 +210,7 @@ p {
 }
 .header .li {
   font-family: var(--tipo-secundaria);
-  font-size: 1.4em;
+  font-size: 1.35em;
   margin: 0 0.6em;
 }
 @media screen and (max-width: 1025px) {
