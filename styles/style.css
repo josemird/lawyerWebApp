@@ -556,7 +556,7 @@ p {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding: 6% 4% 4%;
+    padding: 6% 1% 1%;
   }
 }
 .main_servicios {
@@ -611,10 +611,10 @@ p {
     grid-template-rows: 1fr;
   }
   .main_servicios .sec4 {
-    padding: 0 17%;
+    padding: 0 14%;
   }
   .main_servicios .sec4 .img {
-    height: 15rem;
+    height: 14rem;
     border-radius: 2%;
     background-position: center;
   }
@@ -623,7 +623,7 @@ p {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding: 6% 4% 4%;
+    padding: 7% 1% 1%;
   }
 }
 .main_contacta {
