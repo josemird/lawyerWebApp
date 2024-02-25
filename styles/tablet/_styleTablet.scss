@@ -1,8 +1,10 @@
 @media screen and (min-width: 500px) and (max-width: 1025px){
     .main{
         padding-top: 5%;
-        .img_main{
-            height: 30em;  
+        .div_main{
+            .img_main{
+                height: 30em;  
+            }
         }
         .sec{
             .img{

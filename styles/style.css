@@ -505,7 +505,7 @@ p {
   .main {
     padding-top: 5%;
   }
-  .main .img_main {
+  .main .div_main .img_main {
     height: 30em;
   }
   .main .sec .img {
