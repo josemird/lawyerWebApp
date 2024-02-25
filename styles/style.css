@@ -623,10 +623,10 @@ p {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding: 7% 1% 1%;
+    padding: 7% 1% 9% 1%;
   }
   .main_servicios .sec4 .txt_sec > p {
-    padding: 0 0 !important;
+    padding: 0 1rem !important;
   }
 }
 .main_contacta {
