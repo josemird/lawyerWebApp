@@ -1,8 +1,7 @@
-Despliegue en Netlify:
-https://alejandromarin.netlify.app/
+DESPLEIGUE -> Netlify:
+    https://alejandromarin.netlify.app/
 
-
-```
+JERARQUÍA DE CARPETAS DEL PROYECTO:
 └── 📁lawyerWebApp
     └── 📁assets
         └── 📁img
@@ -31,8 +30,6 @@ https://alejandromarin.netlify.app/
             └── sec3.jpg
             └── sec3alternative.jpg
             └── WSLawyer.jpg
-        └── 📁vid
-            └── abogados.mp4
     └── bufete.html
     └── contacta.html
     └── index.html
