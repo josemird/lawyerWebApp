@@ -5,8 +5,9 @@
 $white: white;
 $black: black;
 $inky: #333; //- complementary black color
-$darkredbrown: #863131; //- main background
-$mistyrose: mistyrose; //- button's hovers backgrounds 
+$darkredbrown: #863131; //- button background and others
+$mistyrose: mistyrose; //- alternative
+$misty: rgb(255, 251, 251); //- alternative complementary
 $whitesmoke: whitesmoke; //- opinion's frames backgrounds
 
 /*DISEÑO GENERAL*/
@@ -134,9 +135,13 @@ p{
             padding: 9px;
             background-color: $darkredbrown;
             color: $white;
-        }.btn_portada:hover{
+        }
+        .btn_portada:hover, 
+        .btn_portada:active, 
+        .btn_portada:focus{
+            background-color: $inky;
             border: $inky solid 0.1em;
-            background-color: slategrey;
+            color: $mistyrose;
         }
     }
     
@@ -190,7 +195,11 @@ p{
                 border-radius: 3%;
             }
             .img_opinion:hover{
-                opacity: 0.4;
+                scale: 1.2;
+                cursor: pointer;
+            }
+            .img_opinion:active{
+                scale: 2.5;
                 cursor: pointer;
             }
             .img_opinion1{
@@ -212,9 +221,15 @@ p{
                 text-align: left;
                 font-size: 0.75em;
                 padding-top: 0.5rem;
-                border-top-right-radius: 3%;
-                border-bottom-right-radius: 3%;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
                 background-color: $white;  
+            }
+            .txt_opinion:hover,
+            .txt_opinion:active, 
+            .txt_opinion:focus{
+                background-color: $misty;
+                text-shadow: silver 0 0 0.1em;
             }
             .txt_opinion > p{
                 padding: 0 10% 0;
@@ -224,9 +239,6 @@ p{
                 display: flex;
                 padding-right: 12%;
                 justify-content: center;
-            }
-            .txt_opinion:hover{
-                background-color: $mistyrose;
             }
         }
     }
