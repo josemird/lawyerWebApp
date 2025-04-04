@@ -1,6 +1,35 @@
 DESPLEIGUE -> Netlify:
     https://alejandromarin.netlify.app/
 
+# Marin Abogados - Asesoría Legal Profesional
+
+Marin Abogados es un sitio web diseñado para ofrecer información y servicios legales de alta calidad a clientes individuales y empresariales. Con un enfoque en la claridad, la profesionalidad y la accesibilidad, nuestro sitio web facilita el acceso a nuestros servicios y experiencia legal.
+
+## Características principales
+
+* **Información de servicios:** Detalle completo de las áreas de práctica y servicios legales ofrecidos.
+  
+* **Equipo de abogados:** Presentación del equipo de profesionales con experiencia y especialización.
+  
+* **Formulario de contacto:** Facilita la comunicación directa para consultas y solicitudes de servicios.
+  
+* **Diseño profesional y moderno:** Interfaz limpia y fácil de navegar, adaptada a dispositivos móviles.
+
+
+## Tecnologías utilizadas
+
+* **Frontend:** HTML5, Sass (SCSS), JavaScript.
+* **Diseño:** Diseño responsivo y adaptable.
+
+## Cómo contribuir
+
+Si deseas contribuir a Marin Abogados, puedes hacerlo de las siguientes maneras:
+
+* Reportar errores o problemas.
+* Sugerir mejoras en la interfaz de usuario.
+* Proponer nuevos recursos o contenido legal.
+* Optimizar el rendimiento del sitio.
+
 JERARQUÍA DE CARPETAS DEL PROYECTO:
 └── 📁lawyerWebApp
     └── 📁assets
